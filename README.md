@@ -23,12 +23,18 @@ app.get('/', function(req, res){
 ```
 
 ```
-// return json for stop at pos in list
+// return json for stops position on the list bus_eireann
 app.get('/bus_eireann/stop/:id', function(req, res) {
 	var result = (data[req.params.id]);
 	console.log(result);
   	res.json(result);
 });
+```
+
+```
+// get list of stops in each town
+app.get('/stops/town/', function(req, res){
+}
 ```
 
 ## Example use of the API
