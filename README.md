@@ -5,13 +5,12 @@
 
 **  Glen Gardiner **
 
-
 The purpose of the project is to use a collection of Public Transport and Outdoor Recreation Strategy Mapping  datasets to build an API to find and determine if the locations are accessible using public transport(Bus_Eireann).
 
 ##Tools and Methods
 
-Nodejs and Express to create the server to handle the HTTP,GET,POST,PUT and DELETE requests/responces.
-Databases to store datasets to allow for query, update , delete funtionality.All responces will return in json format using browser or Curl in theterminal for development and if possible a front end to demo. 
+Nodejs and Express to create the server to handle the HTTP, GET, POST, PUT and DELETE requests/responses.
+Databases to store datasets to allow for query, update , delete funtionality.All responses will return in json format in the browser or Curl in the console for development and if possible a front end to demo. 
 
 
 ## Datasets include
@@ -39,19 +38,18 @@ The public transport dataset I will use is  Bus Eireann which is the most inclus
 
 ## Example use of the API
 
+
 ```
 // retrieve all activities from file
 app.get('/', function(req, res){ })
 
 ```
 
-
 ```
 // find activities searching by word in description
 app.get('/search/', function(req, res){ });
 
 ```
-
 
 ```
 // get list of stops in each town
