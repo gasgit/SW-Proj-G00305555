@@ -20,7 +20,7 @@ https://data.gov.ie/dataset/outdoor-recreation-strategy
 
 ###DS 2
 Bus Eireann which is free to download from http://www.transportforireland.ie/transitData/PT_Data.html.
-There is 
+
 
 ###DS 3
 
@@ -34,18 +34,14 @@ There is
 
 ```
 // retrieve all activities from file
-app.get('/', function(req, res){
-	console.log(ors);
-})
+app.get('/', function(req, res){ })
 
 ```
 
 
 ```
 // find activity by searching word in description
-app.get('/search/', function(req, res){
-  console.log(ors);
-});
+app.get('/search/term/', function(req, res){ });
 
 ```
 
