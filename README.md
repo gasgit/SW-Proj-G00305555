@@ -15,11 +15,12 @@ The purpose of the project is to use a collection of public transport and Galway
 ###DS 1
 I will use the dataset for Outdoor Recreation Strategy Mapping for West Regional Authority.
 This dataset includes Galway, Mayo and Roscommon for various outdoor activities.
-https://data.gov.ie/dataset/outdoor-recreation-strategy
+[Outdoor Recreation Strategy](https://data.gov.ie/dataset/outdoor-recreation-strategy)
+
 
 
 ###DS 2
-Bus Eireann which is free to download from [Transport For Ireland](www.transportforireland.ie/transitData/PT_Data.html.)
+Bus Eireann which is free to download from [Public Transport](http://www.transportforireland.ie/transitData/PT_Data.html)
 
 
 ###DS 3
