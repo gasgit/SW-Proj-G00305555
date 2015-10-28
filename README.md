@@ -19,9 +19,13 @@ Databases to store datasets to allow for query, update , delete funtionality.All
 The Outdoor Recreation Strategy Mapping for West Regional Authority.This dataset includes Galway, Mayo and Roscommon at various locations and wide range of outdoor activities. 
 [Outdoor Recreation Strategy](https://data.gov.ie/dataset/outdoor-recreation-strategy).
 
+Dataset formats include csv, geojson.
+
 
 ###DS 2
 The public transport dataset I will use is  Bus Eireann which is the most inclusive for the region and  is free to download from [Public Transport](http://www.transportforireland.ie/transitData/PT_Data.html). As the project proceeds there are other options to include if nessary.
+
+Dataset is in text format.
 
 ###DS 3
 Other datasets may include Blueflag beaches..
