@@ -34,6 +34,8 @@ app.get('/bus_eireann/stop/:id', function(req, res) {
 ```
 // get list of stops in each town
 app.get('/stops/town/', function(req, res){
+
+	var town = req.query.town;
 }
 ```
 
