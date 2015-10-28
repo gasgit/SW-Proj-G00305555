@@ -3,30 +3,32 @@
 # SW-g00305555
 
 
-** by glen gardiner **
+**  Glen Gardiner **
 
 
-The purpose of the project is to use a collection of public transport and Galway County Council datasets to build an API to determine if the Outdoor Recreation locations are accessible using public transport(Bus_Eireann).
+The purpose of the project is to use a collection of Public Transport and Outdoor Recreation Strategy Mapping  datasets to build an API to find and determine if the locations are accessible using public transport(Bus_Eireann).
 
 
-## Datasets to date include
+
+## Datasets include
 
 
 ###DS 1
-I will use the dataset for Outdoor Recreation Strategy Mapping for West Regional Authority.
-This dataset includes Galway, Mayo and Roscommon for various outdoor activities.
+The Outdoor Recreation Strategy Mapping for West Regional Authority.This dataset includes Galway, Mayo and Roscommon at various locations and wide range of outdoor activities. 
 [Outdoor Recreation Strategy](https://data.gov.ie/dataset/outdoor-recreation-strategy)
 
 
-
 ###DS 2
-Bus Eireann which is free to download from [Public Transport](http://www.transportforireland.ie/transitData/PT_Data.html)
+The public transport dataset I will use is  Bus Eireann which is the most inclusive for the region and  is free to download from [Public Transport](http://www.transportforireland.ie/transitData/PT_Data.html). As the project proceeds there are other options to include if nessary.
+
 
 
 ###DS 3
 
 
 ## How to Query the API
+
+
 
 
 
@@ -42,23 +44,15 @@ app.get('/', function(req, res){ })
 
 ```
 // find activity by searching word in description
-app.get('/search/term/', function(req, res){ });
+app.get('/search/', function(req, res){ });
 
 ```
 
-```
-// return json for stops position on the list bus_eireann
-app.get('/bus_eireann/stop/:id', function(req, res) {
-	var result = (data[req.params.id]);
-  	res.json(result);
-});
-```
 
 ```
 // get list of stops in each town
 app.get('/stops/town/', function(req, res){
 
-	var town = req.query.town;
 }
 ```
 
