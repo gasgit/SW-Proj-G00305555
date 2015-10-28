@@ -51,8 +51,6 @@ app.get('/search/', function(req, res){ });
 
 ```
 // get list of stops in each town
-app.get('/stops/town/', function(req, res){
-
-}
+app.get('/stops/town/', function(req, res){}
 ```
 
