@@ -3,7 +3,7 @@
 # SW-g00305555
 
 
-**  Glen Gardiner **
+Glen Gardiner 
 
 The purpose of the project is to use a collection of Public Transport and Outdoor Recreation Strategy Mapping  datasets to build an API to find and determine if the locations are accessible using public transport(Bus_Eireann).
 
