@@ -7,12 +7,26 @@ nodejs and express.
 ...
 ## Datasets used
 I will use datasets for city_link, Bus_eireann and Irish_rail to begin with.
-free to download from 
-http://www.transportforireland.ie/transitData/PT_Data.html
+free to download from http://www.transportforireland.ie/transitData/PT_Data.html.
 
+##
 
 
 ## How to Query the API
+```
+app.get('/', function(req, res){
+  console.log(data);
+});
+```
+
+```
+// return json for stop at pos in list
+app.get('/bus_eireann/stop/:id', function(req, res) {
+	var result = (data[req.params.id]);
+	console.log(result);
+  	res.json(result);
+});
+```
 ...
 ## Example use of the API
 ...
