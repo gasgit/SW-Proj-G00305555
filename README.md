@@ -41,7 +41,7 @@ Other datasets may include Blueflag beaches..
 
 ```
 // List all activities from 
-app.get('/ors/', function(req, res){ });
+app.get('/api/', function(req, res){ });
 
 ```
 
