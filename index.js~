@@ -80,18 +80,10 @@ app.get('/api/stops/search', function(req, res) {
 
 ///////////////////////////////////////////////////////////////////////
 
-// GET - need work here on query
+// GET
 
 ////////////////////////////////////////////////////////////////////////
-app.get('/api/stops/findOne/',function(req,res){
 
-	//var findOne = req.query.findOne
-
-	db_stops_local.get('999344546' , function(err, doc) {
-  if (err) { return console.log(err); }
-  	res.send(doc);
-});
-})
 
 ///////////////////////////////////////////////////////////////////////
 
