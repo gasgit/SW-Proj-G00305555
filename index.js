@@ -3,43 +3,70 @@ var express = require('express');
 var PouchDB = require('pouchdb');
 
 var app = express();
+var db_4all_local = new PouchDB('db_4all_local');
 
-var db_stops_local = new PouchDB('stopsdb');
-var db_ors_local = new PouchDB('orsdb');
 
-//PouchDB.sync(db_stops_local, "http://127.0.0.1:5984/stops");
-//PouchDB.sync(db_ors_local, "http://127.0.0.1:5984/testy5");
-//test git
 
-// function to call for sync with couchDB-server
 function syncWithCouchDB(){
 
-	PouchDB.sync(db_stops_local, "http://127.0.0.1:5984/stops");
+	PouchDB.sync(db_4all_local, "http://127.0.0.1:5984/orsdb");
+
 }
-// call on startup
-syncWithCouchDB();
+
+//syncWithCouchDB();
 
 
-///////////////////////////////////////////////////////////////////////////////////////////
 
-// root endpoint
-
-////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////  root endpoint /////////////////////////////////////
 
 app.get('/', function(req, res) {
-	res.send("Outdoor Recreational Strategy api.");
+	res.send("This is the Outdoor Recreational Strategy api.");
 });
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////
 
-// getall stops and show docs
+/////////////////////////////stops search term////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////////////////////
+// bus stops search term
+
+////////////////////////////////////////////////////////////////////////////////
+
+app.get('/api/stops/search/', function(req, res) {
+
+	
+	var searchterm = req.query.searchterm
+	var searchstop = searchterm.toLowerCase();
+	
+	db_4all_local.query(function(doc, emit) {
+	
+	if(doc._id && doc.properties.stop_name)
+		
+		if(doc.properties.stop_name.toLowerCase().indexOf(searchstop) != -1){
+	
+			 emit({"Stop Type": doc.type,
+			 			"Stop Name": doc.properties.stop_name,
+			 				"Coordinates: ": doc.geometry.coordinates})
+			}
+
+	}).then(function(result) {
+
+		res.send(result);
+
+
+	}).catch(function(err) {
+		console.log(err);
+	});
+})
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 app.get('/api/stops', function(req, res) {
 
-	db_stops_local.allDocs({
+	db_4all_local.allDocs({
 		include_docs: true,
 		descending: false
 	}, function(err, doc) {
@@ -49,64 +76,138 @@ app.get('/api/stops', function(req, res) {
 	});
 });
 
-/////////////////////////////stops search term///////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// stops search term - still needs work
+//
 
-/////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-app.get('/api/stops/search', function(req, res) {
 
-	var searchstop = req.query.searchterm
-	console.log(searchstop);
+app.get('/api/stops/delete/',function(req,res){
 
-	db_stops_local.query(function(doc, emit) {
+	var id = req.query.id
+	
+	console.log(id);
+	
 
-		if (doc.properties.stop_name.indexOf(searchstop) != -1  ||
-		   		doc.properties.stop_name.toLowerCase().indexOf(searchstop) != -1)
-			 			emit(doc.properties.stop_name, {
-				 				"coordinates": [doc.geometry.coordinates]
-	});
 
-	}).then(function(result) {
+db_4all_local.get(id).then(function (doc) {
 
-		res.send(result);
-
-	}).catch(function(err) {
-		console.log(err);
-	});
+  return db.remove(doc);
 });
 
 
-///////////////////////////////////////////////////////////////////////
+syncWithCouchDB();
 
-// GET - need work here on query
+res.send("done");
 
-////////////////////////////////////////////////////////////////////////
-app.get('/api/stops/findOne/',function(req,res){
-
-	//var findOne = req.query.findOne
-
-	db_stops_local.get('999344546' , function(err, doc) {
-  if (err) { return console.log(err); }
-  	res.send(doc);
 });
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+app.get('/api/get/one/', function(req, res){
+
+db_4all_local.query(function(doc, emit) {
+  if (doc._id === 'd8c69cc0157924c5507e4c9d750c45a6') {
+    emit(doc);
+    console.log(doc);
+    res.send(doc);
+  
+
+}
+})
 })
 
-///////////////////////////////////////////////////////////////////////
 
-// PUT
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-////////////////////////////////////////////////////////////////////////
+//
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+app.get('/api/get/doc/', function(req, res){
+
+var docid = req.params.docid
+
+db_4all_local.get(docid).then(function (doc) {
+  res.send(doc);
+}).catch(function (err) {
+  console.log(err);
+  res.send( err)
+});
+
+//var docid = req.query.docid
+
+//db_4all_local.query(function(doc, emit) {
+//	if(doc._id)
+//	  if (doc._id === docid) {
+//		emit(doc);
+//		console.log(doc);
+//		res.send(doc);
+//	  
+
+//	}
+//})
+//console.log(docid)
+//db_4all_local.query(function(doc, emit) {
+//	if(doc._id)
+//  if (doc._id === docid) {
+//    emit(doc);
+//    
+//  }
+//}).then(function (result) {
+//  res.send(result);
+//}).catch(function (err) {
+//  console.log(err);
+//});
+
+
+})
+ 
+
+
+
+
+
+
+
+////db_4all_local.query(function(doc, emit) {
+////  if (doc._id === 'd8c69cc0157924c5507e4c9d750c45a6') 
+////    emit(doc);
+////    console.log(doc);
+////    //res.send(doc);
+////  
+////}
+////});
+////})
+
+
+
+
+
+//	
+
+
+
+
+
+///////////////////////////////  put new stop  to db_stops_local ///////////////////////////////////
+
 
 app.get('/api/stop/put/*', function(req, res) {
 
-
+// http://127.0.0.1:8000/api/stop/put/?_id=66444344546&stop_id=6688866&stop_lat=53.123456&stop_lon=update
 		
 	var array = {"_id": req.query._id, "stop_id": req.query.stop_id, "stop_lat": req.query.stop_lat, "stop_lon": req.query.stop_lon};	
 		
 	//var array = {"_id": "64646464","stop_id":"5222","stop_name":"Emmerson Street","stop_lat":22222,"stop_lon":222222};
-
+ 
 //	db_stops_local.put({
 //		_id: '98345',
 //		stop_id: '666',
@@ -117,7 +218,7 @@ app.get('/api/stop/put/*', function(req, res) {
 //	})
 
 
-	db_stops_local.put(array)
+	db_4all_local.put(array)
 	
 	
 	.then(function(response) {
@@ -138,12 +239,185 @@ app.get('/api/stop/put/*', function(req, res) {
 
 })
 
+//////////////////////////////  delete stop from db_stops_local   //////////////////////////////////
 
-///////////////////////////////////////////////////////////////////////
 
-// DELETE
 
-////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////////  all activities ////////////////////////////////////
+
+app.get('/api/activities', function(req, res) {
+
+	var map = function(doc) {
+		if (doc.properties.name)
+			emit(doc.properties.name, {
+				"coordinates": doc.geometry.coordinates
+			});
+		//emit(doc.properties.name, {"FID": doc.properties.FID, "Ref": doc.properties.Ref, "Description": doc.properties.descriptio});
+		//emit(doc.properties, doc._rev);
+	}
+
+	db_4all_local.query({
+		map: map
+	}, function(err, response) {
+
+		res.send(err || response);
+	})
+})
+
+
+/////////////////////////////   search activities  ///////////////////////////////
+
+
+app.get('/api/activities/search/', function(req, res) {
+
+	var searchterm = req.query.searchterm
+	var searchactivity = searchterm.toLowerCase();
+
+	db_4all_local.query(function(doc, emit) {
+
+		if (doc.properties.descriptio.toLowerCase().indexOf(searchactivity) != -1)
+				emit(doc.properties.name, {
+					"desc": doc.properties.descriptio,
+						"coordinates": doc.geometry.coordinates
+			});
+			
+			
+	
+	}).then(function(result) {
+
+		res.send(result);
+		//console.log(result);
+
+	}).catch(function(err) {
+		console.log(err);
+	});
+	
+	
+	
+});
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+app.get('/api/activities/search/name/', function(req, res) {
+
+	var searchterm = req.query.searchterm
+	var searchname = searchterm.toLowerCase();
+
+	db_4all_local.query(function(doc, emit) {
+
+		if (doc.properties.name.toLowerCase().indexOf(searchname) != -1)
+					emit(doc.properties.name, {
+						"desc": doc.properties.descriptio,
+							"coordinates": doc.geometry.coordinates
+			});
+			
+			
+	
+	}).then(function(result) {
+
+		res.send(result);
+		//console.log(result);
+
+	}).catch(function(err) {
+		console.log(err);
+	});
+	
+	
+	
+});
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// trains_local
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+app.get('/api/trains', function(req, res) {
+
+	db_4all_local.allDocs({
+		include_docs: true,
+		descending: false
+	}, function(err, doc) {
+
+		res.send(err || doc)
+
+	});
+});
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// search trains by stop name
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+app.get('/api/trains/search/', function(req, res) {
+
+	var searchterm = req.query.searchterm
+	var searchtrain = searchterm.toLowerCase();
+
+
+	db_4all_local.query(function(doc, emit) {
+
+		if (doc.properties.stop_name.toLowerCase().indexOf(searchtrain) != -1)
+			 			emit(doc.properties.stop_name, {
+				 				"coordinates": [doc.geometry.coordinates]
+	});
+
+	}).then(function(result) {
+
+		res.send(result);
+
+	}).catch(function(err) {
+		console.log(err);
+	});
+});
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// search both bus and trains
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+app.get('/api/search/', function(req,res){
+	
+	var searchterm = req.query.searchterm
+	var searchstop = searchterm.toLowerCase();
+	
+	db_4all_local.query(function(doc, emit) {
+	
+	if(doc._id && doc.properties.stop_name)
+		
+		if(doc.properties.stop_name.toLowerCase().indexOf(searchstop) != -1){
+	
+			 emit({"Stop Type": doc.type,
+			 			"Stop Name": doc.properties.stop_name,
+			 				"Coordinates: ": doc.geometry.coordinates})
+			}
+
+	}).then(function(result) {
+
+		res.send(result);
+		console.log(result);
+
+	}).catch(function(err) {
+		console.log(err);
+	});
+})
+
+
+
+
+
+
+
+
+
 
 console.log("Server running on 127.0.0.1:8000")
 var server = app.listen(8000);
