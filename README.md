@@ -170,13 +170,11 @@ app.get('/api/stops', function(req,res){});
 ```
 
 ```
-
 // Search for stop by term
 app.get('/api/stops/search/', function(req,res){});
 
 ```
 
-```
 
 
 ```
@@ -184,6 +182,8 @@ app.get('/api/stops/search/', function(req,res){});
 app.get('/api/activities	', function(req, res){ });
 
 ```
+
+
 ```
 // Search activities description
 app.get('/api/activities/search/', function(req, res){ });

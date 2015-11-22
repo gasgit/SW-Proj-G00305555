@@ -172,23 +172,12 @@ app.get('/api/stops', function(req,res){});
 ```
 
 // Search for stop by term
-app.get('/api/stops/search', function(req,res){});
+app.get('/api/stops/search/', function(req,res){});
 
 ```
 
 ```
-// List all activities from 
-app.get('/api/stops/put/', function(req, res){ });
 
-
-```
-
-```
-// List stops delete 
-app.get('/api/stops/put/', function(req, res){ });
-
-
-```
 
 ```
 // List all activities from db_4all_local
