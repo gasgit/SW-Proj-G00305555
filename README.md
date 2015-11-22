@@ -35,7 +35,7 @@ Other datasets may include Blueflag beaches..
 ## Databases Used
 
 CouchDB-server used to create dbs stops and ors.
-PouchDb on express for db_stops_local and db_ors_local which sync with couchDB-server
+PouchDb on express for db_4all_local which sync's with couchDB-server
 
 
 
@@ -51,13 +51,13 @@ get all dbs listed on couchDb-server
 curl -X GET http://127.0.0.1:5984/_all_dbs
 
 create db on couchDB-server
-curl -X PUT http://127.0.0.1:5984/stops
+curl -X PUT http://127.0.0.1:5984/orsdb
 
 delete db from couchDB-server
-curl -X DELETE http://127.0.0.1:5984/stops
+curl -X DELETE http://127.0.0.1:5984/orsdb
 
 load db from file to couchDB-server.. cd into folder containing json file to post.
-curl -d @stop_times.json -H "Content-type: application/json" _id -X POST http://127.0.0.1:5984/stops/_bulk_docs
+curl -d @stop_times.json -H "Content-type: application/json" _id -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
 
 
 
@@ -86,8 +86,18 @@ app.get('/api/stops', function(req,res){});
 // Search for stop by term
 app.get('/api/stops/search', function(req,res){});
 
+```
+
+```
 // List all activities from 
-app.get('/ors/', function(req, res){ });
+app.get('/api/stops/put/', function(req, res){ });
+
+
+```
+
+```
+// List stops delete 
+app.get('/api/stops/put/', function(req, res){ });
 
 
 ```
@@ -97,12 +107,20 @@ app.get('/ors/', function(req, res){ });
 app.get('/api/activities	', function(req, res){ });
 
 ```
+```
+// Search activities description
+app.get('/api/activities/search/', function(req, res){ });
 
 ```
-// List activities searching by term in description
-app.get('/api/activities/search', function(req, res){ });
+
 
 ```
+// Search activities name
+app.get('/api/activities/search/name/', function(req, res){ });
+
+```
+
+
 
 
 
