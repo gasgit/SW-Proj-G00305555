@@ -5,7 +5,7 @@
 
 Glen Gardiner 
 
-The purpose of the project is to use a collection of Public Transport and The Outdoor Recreation Strategy datasets to build an API to find and determine if the locations are accessible using public transport(Bus_Eireann).
+The purpose of the project is to use a collection of Public Transport and The Outdoor Recreation Strategy datasets to build an API to find and determine if the locations are accessible using public transport(Bus Eireann,Irish Rail).
 
 ### Tools and Methods
 
@@ -97,20 +97,20 @@ PouchDb on express for db_4all_local which sync's with couchDB-server.
 
 The curl commands used to load couchDb-server on localhost
 
-test couch-server is running
+//test couch-server is running
 curl http://127.0.0.1:5984/
 
-get all dbs listed on couchDb-server
+//get all dbs listed on couchDb-server
 curl -X GET http://127.0.0.1:5984/_all_dbs
 
-create db on couchDB-server
-curl -X PUT http://127.0.0.1:5984/orsdb
+//create db on couchDB-server
+curl -X PUT http://127.0.0.1:5984/orsdb2
 
-delete db from couchDB-server
+//delete db from couchDB-server
 curl -X DELETE http://127.0.0.1:5984/orsdb
 
-load db from file to couchDB-server.. cd into folder containing json file to post.
-curl -d @stop_times.json -H "Content-type: application/json" _id -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
+//load db from file to couchDB-server.. cd into folder containing json file to post.
+curl -d @stops_geo.json -H "Content-type: application/json" _id -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
 
 
 
