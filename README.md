@@ -69,7 +69,7 @@ The public transport dataset I will use is Bus Eireann which is the most inclusi
   
 ```
 ## sample from Bus Eireann 
-
+```
 {
     "type": "Bus",
     "geometry": {
@@ -81,6 +81,8 @@ The public transport dataset I will use is Bus Eireann which is the most inclusi
     "stop_name":"Belfast (Europa Bus Centre)"
     }
   }
+  
+```
 
 
 Dataset is in text format.
