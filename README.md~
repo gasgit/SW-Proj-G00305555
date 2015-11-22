@@ -20,23 +20,52 @@ Online file converter to convert from csv to geojson - http://www.convertcsv.com
 ###DS 1
 The Outdoor Recreation Strategy Mapping for West Regional Authority.This dataset includes Galway, Mayo and Roscommon at various locations and wide range of outdoor activities. 
 [Outdoor Recreation Strategy](https://data.gov.ie/dataset/outdoor-recreation-strategy).
+
+
  
 
 
 ###DS 2
 The public transport dataset I will use is Bus Eireann which is the most inclusive for the region and is free to download from [Public Transport](http://www.transportforireland.ie/transitData/PT_Data.html).The Irish Rail dataset for a list of rail stops throughout the country. As the project proceeds there are other options to include if nessary. All bus providers data has the same format and can be easily added to the database.  
+## sample from Irish Rail
+```
+{
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.04531615893216,54.5139704645036 ]
+    },
+    "properties": {
+    "stop_id":"700GA00035",
+    "stop_name":"Lisburn Train Station",
+    "location_type":"",
+    "parent_station":"Parent2158"
+    }
+  }
+  
+```
+## sample from Bus Eireann 
+
+{
+    "type": "Bus",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.93660082131046,54.5945926369851 ]
+    },
+    "properties": {
+    "stop_id":"700000000240",
+    "stop_name":"Belfast (Europa Bus Centre)"
+    }
+  }
+
 
 Dataset is in text format.
-
-###DS 3
 
 
 ## Databases Used
 
 CouchDB-server used to create orsdb.
 PouchDb on express for db_4all_local which sync's with couchDB-server.
-
-
 
 
 ## cURL

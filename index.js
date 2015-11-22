@@ -167,22 +167,22 @@ app.get('/api/get/doc/', function(req, res) {
 
 	var docid = req.params.docid
 
-	db_4all_local.get(docid).then(function(doc) {
-		res.send(doc);
-	}).catch(function(err) {
-		console.log(err);
-		res.send(err)
-	});
+//	db_4all_local.get(docid).then(function(doc) {
+//		res.send(doc);
+//	}).catch(function(err) {
+//		console.log(err);
+//		res.send(err)
+//	});
 
 	//var docid = req.query.docid
 
-	//db_4all_local.query(function(doc, emit) {
-	//	if(doc._id)
-	//	  if (doc._id === docid) {
-	//		emit(doc);
-	//		console.log(doc);
-	//		res.send(doc);
-	//
+	db_4all_local.query(function(doc, emit) {
+		if(doc._id)
+		  if (doc._id === docid) {
+			emit(doc);
+			console.log(doc);
+			res.send(doc);
+	
 
 	//	}
 	//})
