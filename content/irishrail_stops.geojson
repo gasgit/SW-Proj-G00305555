@@ -1,0 +1,5036 @@
+{
+   
+   "docs": [
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.04531615893216,54.5139704645036 ]
+    },
+    "properties": {
+    "stop_id":"700GA00035",
+    "stop_name":"Lisburn Train Station",
+    "location_type":"",
+    "parent_station":"Parent2158"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.04535945905122,54.5140340727007 ]
+    },
+    "properties": {
+    "stop_id":"700GA00036",
+    "stop_name":"Lisburn Train Station",
+    "location_type":"",
+    "parent_station":"Parent2158"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.36258202070793,54.1886782011257 ]
+    },
+    "properties": {
+    "stop_id":"700GA00041",
+    "stop_name":"Newry Train Station",
+    "location_type":"",
+    "parent_station":"Parent2161"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.44694851952915,54.4242901505264 ]
+    },
+    "properties": {
+    "stop_id":"700GA00046",
+    "stop_name":"Portadown Train Station",
+    "location_type":"",
+    "parent_station":"Parent2160"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.44702383988165,54.4243360508522 ]
+    },
+    "properties": {
+    "stop_id":"700GA00047",
+    "stop_name":"Portadown Train Station",
+    "location_type":"",
+    "parent_station":"Parent2160"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.33811767700944,54.4672079887959 ]
+    },
+    "properties": {
+    "stop_id":"700GA00091",
+    "stop_name":"Lurgan Train Station",
+    "location_type":"",
+    "parent_station":"Parent2159"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.33819113177521,54.4672988636283 ]
+    },
+    "properties": {
+    "stop_id":"700GA00092",
+    "stop_name":"Lurgan Train Station",
+    "location_type":"",
+    "parent_station":"Parent2159"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.92233890119664,52.8406798805189 ]
+    },
+    "properties": {
+    "stop_id":"821GA00004",
+    "stop_name":"Carlow Train Station",
+    "location_type":"",
+    "parent_station":"Parent26240"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.95317440353955,52.6989871209866 ]
+    },
+    "properties": {
+    "stop_id":"821GA00009",
+    "stop_name":"Bagnelstown Train Station",
+    "location_type":"",
+    "parent_station":"Parent26239"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2051125873671,53.3728408117471 ]
+    },
+    "properties": {
+    "stop_id":"825GA00003",
+    "stop_name":"Killester Train Station",
+    "location_type":"",
+    "parent_station":"Parent2092"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2049526568073,53.3727125721134 ]
+    },
+    "properties": {
+    "stop_id":"825GA00004",
+    "stop_name":"Killester Train Station",
+    "location_type":"",
+    "parent_station":"Parent2092"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.22734440828775,53.3629895552663 ]
+    },
+    "properties": {
+    "stop_id":"825GA00007",
+    "stop_name":"Clontarf Road Train Station",
+    "location_type":"",
+    "parent_station":"Parent12934"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.22724078347542,53.3629520633096 ]
+    },
+    "properties": {
+    "stop_id":"825GA00008",
+    "stop_name":"Clontarf Road Train Station",
+    "location_type":"",
+    "parent_station":"Parent12934"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.19232296116531,53.3785080555454 ]
+    },
+    "properties": {
+    "stop_id":"825GA00011",
+    "stop_name":"Harmonstown Train Station",
+    "location_type":"",
+    "parent_station":"Parent26160"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.19219118950804,53.3784251661263 ]
+    },
+    "properties": {
+    "stop_id":"825GA00012",
+    "stop_name":"Harmonstown Train Station",
+    "location_type":"",
+    "parent_station":"Parent26160"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.17633685037811,53.3815005994761 ]
+    },
+    "properties": {
+    "stop_id":"825GA00015",
+    "stop_name":"Raheny Train Station",
+    "location_type":"",
+    "parent_station":"Parent26161"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.17636036945983,53.3816537579631 ]
+    },
+    "properties": {
+    "stop_id":"825GA00016",
+    "stop_name":"Raheny Train Station",
+    "location_type":"",
+    "parent_station":"Parent26161"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.16137684612938,53.3874909088601 ]
+    },
+    "properties": {
+    "stop_id":"825GA00019",
+    "stop_name":"Kilbarrack Train Station",
+    "location_type":"",
+    "parent_station":"Parent26151"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.16116998457561,53.3874068283343 ]
+    },
+    "properties": {
+    "stop_id":"825GA00020",
+    "stop_name":"Kilbarrack Train Station",
+    "location_type":"",
+    "parent_station":"Parent26151"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15501029792335,53.3914733108232 ]
+    },
+    "properties": {
+    "stop_id":"825GA00025",
+    "stop_name":"Howth Junction and Donaghmede Train Station",
+    "location_type":"",
+    "parent_station":"Parent26194"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15522248028095,53.3917821891692 ]
+    },
+    "properties": {
+    "stop_id":"825GA00027",
+    "stop_name":"Howth Junction and Donaghmede Train Station",
+    "location_type":"",
+    "parent_station":"Parent26194"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15538660300943,53.3918116902138 ]
+    },
+    "properties": {
+    "stop_id":"825GA00028",
+    "stop_name":"Howth Junction and Donaghmede Train Station",
+    "location_type":"",
+    "parent_station":"Parent26194"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.11911827452846,53.5740283119946 ]
+    },
+    "properties": {
+    "stop_id":"825GA00032",
+    "stop_name":"Skerries Train Station",
+    "location_type":"",
+    "parent_station":"Parent26224"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.11924139016802,53.5739763201369 ]
+    },
+    "properties": {
+    "stop_id":"825GA00033",
+    "stop_name":"Skerries Train Station",
+    "location_type":"",
+    "parent_station":"Parent26224"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.11623443642444,53.3920990358982 ]
+    },
+    "properties": {
+    "stop_id":"825GA00039",
+    "stop_name":"Sutton Train Station",
+    "location_type":"",
+    "parent_station":"Parent26220"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.11628427475958,53.3919919633528 ]
+    },
+    "properties": {
+    "stop_id":"825GA00040",
+    "stop_name":"Sutton Train Station",
+    "location_type":"",
+    "parent_station":"Parent26220"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.46892257177583,53.3358647355768 ]
+    },
+    "properties": {
+    "stop_id":"825GA00043",
+    "stop_name":"Adamstown Train Station",
+    "location_type":"",
+    "parent_station":"Parent26179"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.46879767276146,53.3359979505533 ]
+    },
+    "properties": {
+    "stop_id":"825GA00045",
+    "stop_name":"Adamstown Train Station",
+    "location_type":"",
+    "parent_station":"Parent26179"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.3325340897071,53.3754531282256 ]
+    },
+    "properties": {
+    "stop_id":"825GA00052",
+    "stop_name":"Ashtown Train Station",
+    "location_type":"",
+    "parent_station":"Parent26149"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.33232975061206,53.3752974775524 ]
+    },
+    "properties": {
+    "stop_id":"825GA00053",
+    "stop_name":"Ashtown Train Station",
+    "location_type":"",
+    "parent_station":"Parent26149"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2543204011324,53.3470738166575 ]
+    },
+    "properties": {
+    "stop_id":"825GA00065",
+    "stop_name":"Tara Street Train Station",
+    "location_type":"",
+    "parent_station":"Parent26168"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.25422849814666,53.3471174125565 ]
+    },
+    "properties": {
+    "stop_id":"825GA00066",
+    "stop_name":"Tara Street Train Station",
+    "location_type":"",
+    "parent_station":"Parent26168"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2115054073912,53.3206884922241 ]
+    },
+    "properties": {
+    "stop_id":"825GA00079",
+    "stop_name":"Sydney Parade Train Station",
+    "location_type":"",
+    "parent_station":"Parent26153"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.21141276745787,53.3207500205986 ]
+    },
+    "properties": {
+    "stop_id":"825GA00080",
+    "stop_name":"Sydney Parade Train Station",
+    "location_type":"",
+    "parent_station":"Parent26153"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.11711973030641,53.2366682884863 ]
+    },
+    "properties": {
+    "stop_id":"825GA00088",
+    "stop_name":"Shankill Train Station",
+    "location_type":"",
+    "parent_station":"Parent26204"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.11704408423027,53.2366850701491 ]
+    },
+    "properties": {
+    "stop_id":"825GA00089",
+    "stop_name":"Shankill Train Station",
+    "location_type":"",
+    "parent_station":"Parent26204"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.16526587244227,53.2991153460669 ]
+    },
+    "properties": {
+    "stop_id":"825GA00094",
+    "stop_name":"Seapoint Train Station",
+    "location_type":"",
+    "parent_station":"Parent26209"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.16517321432102,53.2991768385645 ]
+    },
+    "properties": {
+    "stop_id":"825GA00095",
+    "stop_name":"Seapoint Train Station",
+    "location_type":"",
+    "parent_station":"Parent26209"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.22122988905396,53.3279705403815 ]
+    },
+    "properties": {
+    "stop_id":"825GA00099",
+    "stop_name":"Sandymount Train Station",
+    "location_type":"",
+    "parent_station":"Parent26155"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.22102020252443,53.3279584251648 ]
+    },
+    "properties": {
+    "stop_id":"825GA00100",
+    "stop_name":"Sandymount Train Station",
+    "location_type":"",
+    "parent_station":"Parent26155"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.18217162223787,53.6118626410297 ]
+    },
+    "properties": {
+    "stop_id":"825GA00104",
+    "stop_name":"Balbriggan Train Station",
+    "location_type":"",
+    "parent_station":"Parent26231"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.1822815980877,53.6117654453884 ]
+    },
+    "properties": {
+    "stop_id":"825GA00105",
+    "stop_name":"Balbriggan Train Station",
+    "location_type":"",
+    "parent_station":"Parent26231"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.1230529270711,53.2811557309797 ]
+    },
+    "properties": {
+    "stop_id":"825GA00109",
+    "stop_name":"Glenageary Train Station",
+    "location_type":"",
+    "parent_station":"Parent26206"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.12303124725671,53.2813081924181 ]
+    },
+    "properties": {
+    "stop_id":"825GA00110",
+    "stop_name":"Glenageary Train Station",
+    "location_type":"",
+    "parent_station":"Parent26206"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.12730491501195,53.2878380480728 ]
+    },
+    "properties": {
+    "stop_id":"825GA00113",
+    "stop_name":"Sandycove And Glasthule Train Station",
+    "location_type":"",
+    "parent_station":"Parent26207"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.12719920296275,53.2878543644184 ]
+    },
+    "properties": {
+    "stop_id":"825GA00114",
+    "stop_name":"Sandycove And Glasthule Train Station",
+    "location_type":"",
+    "parent_station":"Parent26207"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15220927342815,53.2953723368009 ]
+    },
+    "properties": {
+    "stop_id":"825GA00117",
+    "stop_name":"Salthill And Monkstown Train Station",
+    "location_type":"",
+    "parent_station":"Parent26138"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15217657435337,53.2954347484312 ]
+    },
+    "properties": {
+    "stop_id":"825GA00118",
+    "stop_name":"Salthill And Monkstown Train Station",
+    "location_type":"",
+    "parent_station":"Parent26138"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.17868848837185,53.3027726152784 ]
+    },
+    "properties": {
+    "stop_id":"825GA00123",
+    "stop_name":"Blackrock Train Station",
+    "location_type":"",
+    "parent_station":"Parent26205"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.17864006202542,53.3028527702466 ]
+    },
+    "properties": {
+    "stop_id":"825GA00124",
+    "stop_name":"Blackrock Train Station",
+    "location_type":"",
+    "parent_station":"Parent26205"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.19524989637374,53.309981317366 ]
+    },
+    "properties": {
+    "stop_id":"825GA00128",
+    "stop_name":"Booterstown Train Station",
+    "location_type":"",
+    "parent_station":"Parent26208"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.19536192134698,53.3101717658966 ]
+    },
+    "properties": {
+    "stop_id":"825GA00129",
+    "stop_name":"Booterstown Train Station",
+    "location_type":"",
+    "parent_station":"Parent26208"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.37174065732222,53.3815399976217 ]
+    },
+    "properties": {
+    "stop_id":"825GA00133",
+    "stop_name":"Castleknock Train Station",
+    "location_type":"",
+    "parent_station":"Parent26219"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.37144222828637,53.3814819986502 ]
+    },
+    "properties": {
+    "stop_id":"825GA00134",
+    "stop_name":"Castleknock Train Station",
+    "location_type":"",
+    "parent_station":"Parent26219"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.37921783185244,53.3338708573909 ]
+    },
+    "properties": {
+    "stop_id":"825GA00137",
+    "stop_name":"Park West and Cherry Orchard Train Station",
+    "location_type":"",
+    "parent_station":"Parent26228"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.37915473569269,53.3339508919259 ]
+    },
+    "properties": {
+    "stop_id":"825GA00138",
+    "stop_name":"Park West and Cherry Orchard Train Station",
+    "location_type":"",
+    "parent_station":"Parent26228"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.40575137192068,53.3334284601785 ]
+    },
+    "properties": {
+    "stop_id":"825GA00143",
+    "stop_name":"Clondalkin Fonthill Train Station",
+    "location_type":"",
+    "parent_station":"Parent26241"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.40574869157386,53.3335003278929 ]
+    },
+    "properties": {
+    "stop_id":"825GA00144",
+    "stop_name":"Clondalkin Fonthill Train Station",
+    "location_type":"",
+    "parent_station":"Parent26241"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.14896162225022,53.4030014078041 ]
+    },
+    "properties": {
+    "stop_id":"825GA00149",
+    "stop_name":"Clongriffin Train Station",
+    "location_type":"",
+    "parent_station":"Parent26145"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.14884255153184,53.4029725968647 ]
+    },
+    "properties": {
+    "stop_id":"825GA00150",
+    "stop_name":"Clongriffin Train Station",
+    "location_type":"",
+    "parent_station":"Parent26145"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.42355843892903,53.3831074471706 ]
+    },
+    "properties": {
+    "stop_id":"825GA00156",
+    "stop_name":"Clonsilla Train Station",
+    "location_type":"",
+    "parent_station":"Parent26210"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.42362318631108,53.3829824723825 ]
+    },
+    "properties": {
+    "stop_id":"825GA00157",
+    "stop_name":"Clonsilla Train Station",
+    "location_type":"",
+    "parent_station":"Parent26210"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.39076480046325,53.3777264858856 ]
+    },
+    "properties": {
+    "stop_id":"825GA00162",
+    "stop_name":"Coolmine Train Station",
+    "location_type":"",
+    "parent_station":"Parent26223"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.39070877301582,53.3776178756794 ]
+    },
+    "properties": {
+    "stop_id":"825GA00163",
+    "stop_name":"Coolmine Train Station",
+    "location_type":"",
+    "parent_station":"Parent26223"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.44167125403317,53.3868505423555 ]
+    },
+    "properties": {
+    "stop_id":"825GA00165",
+    "stop_name":"Hansfield Train Station",
+    "location_type":"",
+    "parent_station":"Parent2944"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.24678559300752,53.3531651414512 ]
+    },
+    "properties": {
+    "stop_id":"825GA00172",
+    "stop_name":"Connolly Train Station",
+    "location_type":"",
+    "parent_station":"Parent26148"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.24682952700621,53.3531927513645 ]
+    },
+    "properties": {
+    "stop_id":"825GA00173",
+    "stop_name":"Connolly Train Station",
+    "location_type":"",
+    "parent_station":"Parent26148"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.44157978129302,53.3868852994503 ]
+    },
+    "properties": {
+    "stop_id":"825GA00176",
+    "stop_name":"Hansfield Train Station",
+    "location_type":"",
+    "parent_station":"Parent2944"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.10343933041988,53.2756679966061 ]
+    },
+    "properties": {
+    "stop_id":"825GA00180",
+    "stop_name":"Dalkey Train Station",
+    "location_type":"",
+    "parent_station":"Parent26202"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.10330009022186,53.2757646541381 ]
+    },
+    "properties": {
+    "stop_id":"825GA00181",
+    "stop_name":"Dalkey Train Station",
+    "location_type":"",
+    "parent_station":"Parent26202"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.23943044031671,53.350836770956 ]
+    },
+    "properties": {
+    "stop_id":"825GA00184",
+    "stop_name":"Docklands Train Station",
+    "location_type":"",
+    "parent_station":"Parent26147"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.23926456248725,53.3508522994669 ]
+    },
+    "properties": {
+    "stop_id":"825GA00185",
+    "stop_name":"Docklands Train Station",
+    "location_type":"",
+    "parent_station":"Parent26147"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.14344182722826,53.5206870601926 ]
+    },
+    "properties": {
+    "stop_id":"825GA00190",
+    "stop_name":"Rush and Lusk Train Station",
+    "location_type":"",
+    "parent_station":"Parent26211"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.14368258113767,53.520699787508 ]
+    },
+    "properties": {
+    "stop_id":"825GA00192",
+    "stop_name":"Rush and Lusk Train Station",
+    "location_type":"",
+    "parent_station":"Parent26211"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.25889374870446,53.3631125041542 ]
+    },
+    "properties": {
+    "stop_id":"825GA00194",
+    "stop_name":"Drumcondra Train Station",
+    "location_type":"",
+    "parent_station":"Parent26156"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.25897212996221,53.3630327549222 ]
+    },
+    "properties": {
+    "stop_id":"825GA00195",
+    "stop_name":"Drumcondra Train Station",
+    "location_type":"",
+    "parent_station":"Parent26156"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.13503213566116,53.2950150325883 ]
+    },
+    "properties": {
+    "stop_id":"825GA00199",
+    "stop_name":"Dun Laoghaire Train Station",
+    "location_type":"",
+    "parent_station":"Parent14524"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.13483841338941,53.2949850374301 ]
+    },
+    "properties": {
+    "stop_id":"825GA00200",
+    "stop_name":"Dun Laoghaire Train Station",
+    "location_type":"",
+    "parent_station":"Parent14524"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.24919538323847,53.3434843609986 ]
+    },
+    "properties": {
+    "stop_id":"825GA00204",
+    "stop_name":"Pearse Train Station",
+    "location_type":"",
+    "parent_station":"Parent26157"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.24922061837009,53.3436015770509 ]
+    },
+    "properties": {
+    "stop_id":"825GA00205",
+    "stop_name":"Pearse Train Station",
+    "location_type":"",
+    "parent_station":"Parent26157"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.34573201995217,53.3777399723166 ]
+    },
+    "properties": {
+    "stop_id":"825GA00208",
+    "stop_name":"Navan Road Parkway Train Station",
+    "location_type":"",
+    "parent_station":"Parent26227"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.34580957121434,53.3776781314812 ]
+    },
+    "properties": {
+    "stop_id":"825GA00209",
+    "stop_name":"Navan Road Parkway Train Station",
+    "location_type":"",
+    "parent_station":"Parent26227"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15119524166743,53.4173901463478 ]
+    },
+    "properties": {
+    "stop_id":"825GA00214",
+    "stop_name":"Portmarnock Train Station",
+    "location_type":"",
+    "parent_station":"Parent26146"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.1513336757836,53.4173203845204 ]
+    },
+    "properties": {
+    "stop_id":"825GA00215",
+    "stop_name":"Portmarnock Train Station",
+    "location_type":"",
+    "parent_station":"Parent26146"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.1371425920266,53.3915822833835 ]
+    },
+    "properties": {
+    "stop_id":"825GA00218",
+    "stop_name":"Bayside Train Station",
+    "location_type":"",
+    "parent_station":"Parent26144"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15648162561621,53.4509886645736 ]
+    },
+    "properties": {
+    "stop_id":"825GA00224",
+    "stop_name":"Malahide Train Station",
+    "location_type":"",
+    "parent_station":"Parent26229"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15669150685543,53.4510098801265 ]
+    },
+    "properties": {
+    "stop_id":"825GA00225",
+    "stop_name":"Malahide Train Station",
+    "location_type":"",
+    "parent_station":"Parent26229"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.29939422556,53.3727744627586 ]
+    },
+    "properties": {
+    "stop_id":"825GA00226",
+    "stop_name":"Broombridge Train Station",
+    "location_type":"",
+    "parent_station":"Parent26178"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.29909882361402,53.3726444206991 ]
+    },
+    "properties": {
+    "stop_id":"825GA00229",
+    "stop_name":"Broombridge Train Station",
+    "location_type":"",
+    "parent_station":"Parent26178"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15136361452346,53.4856126207432 ]
+    },
+    "properties": {
+    "stop_id":"825GA00234",
+    "stop_name":"Donabate Train Station",
+    "location_type":"",
+    "parent_station":"Parent26226"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15152418885864,53.4857319500667 ]
+    },
+    "properties": {
+    "stop_id":"825GA00235",
+    "stop_name":"Donabate Train Station",
+    "location_type":"",
+    "parent_station":"Parent26226"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.22876768278867,53.3337452579121 ]
+    },
+    "properties": {
+    "stop_id":"825GA00240",
+    "stop_name":"Lansdowne Road Train Station",
+    "location_type":"",
+    "parent_station":"Parent26158"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.22864539808555,53.3337973712366 ]
+    },
+    "properties": {
+    "stop_id":"825GA00241",
+    "stop_name":"Lansdowne Road Train Station",
+    "location_type":"",
+    "parent_station":"Parent26158"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.21663270123962,53.6373043996511 ]
+    },
+    "properties": {
+    "stop_id":"825GA00244",
+    "stop_name":"Gormanston Train Station",
+    "location_type":"",
+    "parent_station":"Parent26230"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.21678459722878,53.6372886873807 ]
+    },
+    "properties": {
+    "stop_id":"825GA00245",
+    "stop_name":"Gormanston Train Station",
+    "location_type":"",
+    "parent_station":"Parent26230"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.23795658915843,53.3395888193172 ]
+    },
+    "properties": {
+    "stop_id":"825GA00249",
+    "stop_name":"Grand Canal Dock Train Station",
+    "location_type":"",
+    "parent_station":"Parent26152"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.23781854920526,53.3396586856427 ]
+    },
+    "properties": {
+    "stop_id":"825GA00250",
+    "stop_name":"Grand Canal Dock Train Station",
+    "location_type":"",
+    "parent_station":"Parent26152"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.29695620644748,53.3461081156828 ]
+    },
+    "properties": {
+    "stop_id":"825GA00256",
+    "stop_name":"Heuston Train Station",
+    "location_type":"",
+    "parent_station":"Parent26159"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.29608519430242,53.3461046677297 ]
+    },
+    "properties": {
+    "stop_id":"825GA00257",
+    "stop_name":"Heuston Train Station",
+    "location_type":"",
+    "parent_station":"Parent26159"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.07447874799834,53.3890867813641 ]
+    },
+    "properties": {
+    "stop_id":"825GA00266",
+    "stop_name":"Howth Train Station",
+    "location_type":"",
+    "parent_station":"Parent26225"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.07449012343742,53.3891678597961 ]
+    },
+    "properties": {
+    "stop_id":"825GA00267",
+    "stop_name":"Howth Train Station",
+    "location_type":"",
+    "parent_station":"Parent26225"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.11310048659894,53.2558310287973 ]
+    },
+    "properties": {
+    "stop_id":"825GA00271",
+    "stop_name":"Killiney Train Station",
+    "location_type":"",
+    "parent_station":"Parent26203"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.11284783540628,53.2557820865542 ]
+    },
+    "properties": {
+    "stop_id":"825GA00272",
+    "stop_name":"Killiney Train Station",
+    "location_type":"",
+    "parent_station":"Parent26203"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.40568102447968,53.333301688887 ]
+    },
+    "properties": {
+    "stop_id":"825GA00410",
+    "stop_name":"Clondalkin Fonthill Train Station",
+    "location_type":"",
+    "parent_station":"Parent26241"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.13713070450616,53.3915101920396 ]
+    },
+    "properties": {
+    "stop_id":"825GA00461",
+    "stop_name":"Bayside Train Station",
+    "location_type":"",
+    "parent_station":"Parent26144"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.97667148422787,52.9924820986915 ]
+    },
+    "properties": {
+    "stop_id":"826GA00004",
+    "stop_name":"Athy Train Station",
+    "location_type":"",
+    "parent_station":"Parent26217"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.97638873766347,52.9924706769517 ]
+    },
+    "properties": {
+    "stop_id":"826GA00005",
+    "stop_name":"Athy Train Station",
+    "location_type":"",
+    "parent_station":"Parent26217"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.66437680088072,53.2470595806189 ]
+    },
+    "properties": {
+    "stop_id":"826GA00010",
+    "stop_name":"Sallins And Naas Train Station",
+    "location_type":"",
+    "parent_station":"Parent26213"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.66428972442192,53.2469687272188 ]
+    },
+    "properties": {
+    "stop_id":"826GA00011",
+    "stop_name":"Sallins And Naas Train Station",
+    "location_type":"",
+    "parent_station":"Parent26213"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.8086369998771,53.1852974847676 ]
+    },
+    "properties": {
+    "stop_id":"826GA00015",
+    "stop_name":"Newbridge Train Station",
+    "location_type":"",
+    "parent_station":"Parent26216"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.80872550542526,53.1853433084357 ]
+    },
+    "properties": {
+    "stop_id":"826GA00016",
+    "stop_name":"Newbridge Train Station",
+    "location_type":"",
+    "parent_station":"Parent26216"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.59037360354267,53.3780847233527 ]
+    },
+    "properties": {
+    "stop_id":"826GA00023",
+    "stop_name":"Maynooth Train Station",
+    "location_type":"",
+    "parent_station":"Parent11012"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.59028582987196,53.3780117854581 ]
+    },
+    "properties": {
+    "stop_id":"826GA00024",
+    "stop_name":"Maynooth Train Station",
+    "location_type":"",
+    "parent_station":"Parent11012"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.06364073012219,53.1454770637073 ]
+    },
+    "properties": {
+    "stop_id":"826GA00028",
+    "stop_name":"Monasterevin Train Station",
+    "location_type":"",
+    "parent_station":"Parent26212"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.0635990200832,53.1453329346652 ]
+    },
+    "properties": {
+    "stop_id":"826GA00029",
+    "stop_name":"Monasterevin Train Station",
+    "location_type":"",
+    "parent_station":"Parent26212"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.48544990666577,53.3741390832506 ]
+    },
+    "properties": {
+    "stop_id":"826GA00034",
+    "stop_name":"Leixlip Confey Train Station",
+    "location_type":"",
+    "parent_station":"Parent26214"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.48541699263306,53.3742195556644 ]
+    },
+    "properties": {
+    "stop_id":"826GA00035",
+    "stop_name":"Leixlip Confey Train Station",
+    "location_type":"",
+    "parent_station":"Parent26214"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.50675358536668,53.370066425628 ]
+    },
+    "properties": {
+    "stop_id":"826GA00043",
+    "stop_name":"Leixlip Louisa Bridge Train Station",
+    "location_type":"",
+    "parent_station":"Parent16883"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.50668162173393,53.36997564755 ]
+    },
+    "properties": {
+    "stop_id":"826GA00044",
+    "stop_name":"Leixlip Louisa Bridge Train Station",
+    "location_type":"",
+    "parent_station":"Parent16883"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.52386096199008,53.3220777667682 ]
+    },
+    "properties": {
+    "stop_id":"826GA00047",
+    "stop_name":"Hazelhatch and Celbridge Train Station",
+    "location_type":"",
+    "parent_station":"Parent26215"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.52396413300021,53.3221329703005 ]
+    },
+    "properties": {
+    "stop_id":"826GA00048",
+    "stop_name":"Hazelhatch and Celbridge Train Station",
+    "location_type":"",
+    "parent_station":"Parent26215"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.6690045874026,53.3990656226122 ]
+    },
+    "properties": {
+    "stop_id":"826GA00054",
+    "stop_name":"Kilcock Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.90850000274035,53.1627785833374 ]
+    },
+    "properties": {
+    "stop_id":"826GA00058",
+    "stop_name":"Kildare Train Station",
+    "location_type":"",
+    "parent_station":"Parent26218"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.90857225075685,53.1628781097019 ]
+    },
+    "properties": {
+    "stop_id":"826GA00059",
+    "stop_name":"Kildare Train Station",
+    "location_type":"",
+    "parent_station":"Parent26218"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.14902018857128,52.5230985904687 ]
+    },
+    "properties": {
+    "stop_id":"827GA00003",
+    "stop_name":"Thomastown Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.24340208147433,52.6543572870487 ]
+    },
+    "properties": {
+    "stop_id":"827GA00007",
+    "stop_name":"Kilkenny (MacDonagh) Train Station",
+    "location_type":"",
+    "parent_station":"Parent26251"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.18101830146603,53.146090483791 ]
+    },
+    "properties": {
+    "stop_id":"828GA00004",
+    "stop_name":"Portarlington Train Station",
+    "location_type":"",
+    "parent_station":"Parent26247"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.18099063101116,53.145973456163 ]
+    },
+    "properties": {
+    "stop_id":"828GA00005",
+    "stop_name":"Portarlington Train Station",
+    "location_type":"",
+    "parent_station":"Parent26247"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.30133122132526,53.0368321445627 ]
+    },
+    "properties": {
+    "stop_id":"828GA00010",
+    "stop_name":"Portlaoise Train Station",
+    "location_type":"",
+    "parent_station":"Parent16858"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.30137478661258,53.0369043010692 ]
+    },
+    "properties": {
+    "stop_id":"828GA00011",
+    "stop_name":"Portlaoise Train Station",
+    "location_type":"",
+    "parent_station":"Parent16858"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.60224088934475,52.9003676779408 ]
+    },
+    "properties": {
+    "stop_id":"828GA00015",
+    "stop_name":"Ballybrophy Train Station",
+    "location_type":"",
+    "parent_station":"Parent26249"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.60215245221279,52.9002864928395 ]
+    },
+    "properties": {
+    "stop_id":"828GA00016",
+    "stop_name":"Ballybrophy Train Station",
+    "location_type":"",
+    "parent_station":"Parent26249"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.60343167652994,53.6889058644908 ]
+    },
+    "properties": {
+    "stop_id":"829GA00003",
+    "stop_name":"Edgeworthstown Train Station",
+    "location_type":"",
+    "parent_station":"Parent26245"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.60353891761442,53.6887714223874 ]
+    },
+    "properties": {
+    "stop_id":"829GA00004",
+    "stop_name":"Edgeworthstown Train Station",
+    "location_type":"",
+    "parent_station":"Parent26245"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.79585260843083,53.7242645546093 ]
+    },
+    "properties": {
+    "stop_id":"829GA00009",
+    "stop_name":"Longford Train Station",
+    "location_type":"",
+    "parent_station":"Parent16275"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.7958074129505,53.7242105593745 ]
+    },
+    "properties": {
+    "stop_id":"829GA00010",
+    "stop_name":"Longford Train Station",
+    "location_type":"",
+    "parent_station":"Parent16275"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.33519832763685,53.7117666280527 ]
+    },
+    "properties": {
+    "stop_id":"830GA00003",
+    "stop_name":"Drogheda Train Station",
+    "location_type":"",
+    "parent_station":"Parent26244"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.33559792577409,53.7120058562565 ]
+    },
+    "properties": {
+    "stop_id":"830GA00004",
+    "stop_name":"Drogheda Train Station",
+    "location_type":"",
+    "parent_station":"Parent26244"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.4128007113004,54.0015967700218 ]
+    },
+    "properties": {
+    "stop_id":"830GA00009",
+    "stop_name":"Dundalk Train Station",
+    "location_type":"",
+    "parent_station":"Parent26243"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.41298811825545,54.001482413919 ]
+    },
+    "properties": {
+    "stop_id":"830GA00010",
+    "stop_name":"Dundalk Train Station",
+    "location_type":"",
+    "parent_station":"Parent26243"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.83361340376136,53.4163892523288 ]
+    },
+    "properties": {
+    "stop_id":"831GA00002",
+    "stop_name":"Enfield Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.24245702609119,53.6792725517562 ]
+    },
+    "properties": {
+    "stop_id":"831GA00007",
+    "stop_name":"Laytown Train Station",
+    "location_type":"",
+    "parent_station":"Parent11292"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.24258142453756,53.6791934884948 ]
+    },
+    "properties": {
+    "stop_id":"831GA00008",
+    "stop_name":"Laytown Train Station",
+    "location_type":"",
+    "parent_station":"Parent11292"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.46882087674643,53.4346302710423 ]
+    },
+    "properties": {
+    "stop_id":"831GA00011",
+    "stop_name":"M3 Parkway Train Station",
+    "location_type":"",
+    "parent_station":"Parent26200"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.46897357468266,53.4345693145901 ]
+    },
+    "properties": {
+    "stop_id":"831GA00012",
+    "stop_name":"M3 Parkway Train Station",
+    "location_type":"",
+    "parent_station":"Parent26200"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.46474990981641,53.4172945864209 ]
+    },
+    "properties": {
+    "stop_id":"831GA00018",
+    "stop_name":"Dunboyne Train Station",
+    "location_type":"",
+    "parent_station":"Parent26201"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.46490060925335,53.4172875361491 ]
+    },
+    "properties": {
+    "stop_id":"831GA00019",
+    "stop_name":"Dunboyne Train Station",
+    "location_type":"",
+    "parent_station":"Parent26201"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.50042131213096,53.2707680225503 ]
+    },
+    "properties": {
+    "stop_id":"832GA00004",
+    "stop_name":"Tullamore Train Station",
+    "location_type":"",
+    "parent_station":"Parent26198"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.50055706841635,53.2706966941056 ]
+    },
+    "properties": {
+    "stop_id":"832GA00005",
+    "stop_name":"Tullamore Train Station",
+    "location_type":"",
+    "parent_station":"Parent26198"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.61652876322056,53.339733126319 ]
+    },
+    "properties": {
+    "stop_id":"832GA00009",
+    "stop_name":"Clara Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.9358119542968,53.4270283247239 ]
+    },
+    "properties": {
+    "stop_id":"833GA00006",
+    "stop_name":"Athlone Train Station",
+    "location_type":"",
+    "parent_station":"Parent16225"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.93572154024955,53.4271181441627 ]
+    },
+    "properties": {
+    "stop_id":"833GA00007",
+    "stop_name":"Athlone Train Station",
+    "location_type":"",
+    "parent_station":"Parent16225"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.34594415138387,53.5229514609718 ]
+    },
+    "properties": {
+    "stop_id":"833GA00012",
+    "stop_name":"Mullingar Train Station",
+    "location_type":"",
+    "parent_station":"Parent26199"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.34586750840202,53.5230319231667 ]
+    },
+    "properties": {
+    "stop_id":"833GA00013",
+    "stop_name":"Mullingar Train Station",
+    "location_type":"",
+    "parent_station":"Parent26199"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.46479058801653,52.3435997418639 ]
+    },
+    "properties": {
+    "stop_id":"834GA00003",
+    "stop_name":"Wexford Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.33781214392936,52.2513123739994 ]
+    },
+    "properties": {
+    "stop_id":"834GA00013",
+    "stop_name":"Rosslare Europort Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.39153585882016,52.271995337425 ]
+    },
+    "properties": {
+    "stop_id":"834GA00017",
+    "stop_name":"Rosslare Strand Train Station",
+    "location_type":"",
+    "parent_station":"Parent26191"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.39151209582449,52.2718421930079 ]
+    },
+    "properties": {
+    "stop_id":"834GA00018",
+    "stop_name":"Rosslare Strand Train Station",
+    "location_type":"",
+    "parent_station":"Parent26191"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.56614350314449,52.504698622124 ]
+    },
+    "properties": {
+    "stop_id":"834GA00021",
+    "stop_name":"Enniscorthy Train Station",
+    "location_type":"",
+    "parent_station":"Parent26189"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.56625954812321,52.5047539619709 ]
+    },
+    "properties": {
+    "stop_id":"834GA00022",
+    "stop_name":"Enniscorthy Train Station",
+    "location_type":"",
+    "parent_station":"Parent26189"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.29204575499015,52.6712773138519 ]
+    },
+    "properties": {
+    "stop_id":"834GA00028",
+    "stop_name":"Gorey Train Station",
+    "location_type":"",
+    "parent_station":"Parent26190"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.29192962626381,52.6712217059394 ]
+    },
+    "properties": {
+    "stop_id":"834GA00029",
+    "stop_name":"Gorey Train Station",
+    "location_type":"",
+    "parent_station":"Parent26190"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.05288947234124,52.9881314258442 ]
+    },
+    "properties": {
+    "stop_id":"835GA00004",
+    "stop_name":"Wicklow Train Station",
+    "location_type":"",
+    "parent_station":"Parent26184"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15989573142481,52.7938696894475 ]
+    },
+    "properties": {
+    "stop_id":"835GA00008",
+    "stop_name":"Arklow Train Station",
+    "location_type":"",
+    "parent_station":"Parent26183"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15974829612698,52.7938494244996 ]
+    },
+    "properties": {
+    "stop_id":"835GA00009",
+    "stop_name":"Arklow Train Station",
+    "location_type":"",
+    "parent_station":"Parent26183"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.100501743337,53.2042526460911 ]
+    },
+    "properties": {
+    "stop_id":"835GA00014",
+    "stop_name":"Bray Train Station",
+    "location_type":"",
+    "parent_station":"Parent26187"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.10022465487313,53.2040864338426 ]
+    },
+    "properties": {
+    "stop_id":"835GA00015",
+    "stop_name":"Bray Train Station",
+    "location_type":"",
+    "parent_station":"Parent26187"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.22614203881532,52.9302773961356 ]
+    },
+    "properties": {
+    "stop_id":"835GA00020",
+    "stop_name":"Rathdrum Train Station",
+    "location_type":"",
+    "parent_station":"Parent26188"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.06099328951576,53.1442371928108 ]
+    },
+    "properties": {
+    "stop_id":"835GA00024",
+    "stop_name":"Greystones Train Station",
+    "location_type":"",
+    "parent_station":"Parent26186"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.06084430580781,53.1442257774772 ]
+    },
+    "properties": {
+    "stop_id":"835GA00025",
+    "stop_name":"Greystones Train Station",
+    "location_type":"",
+    "parent_station":"Parent26186"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.04107691285785,53.1065270135217 ]
+    },
+    "properties": {
+    "stop_id":"835GA00028",
+    "stop_name":"Kilcoole Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.92199565592828,52.377897138811 ]
+    },
+    "properties": {
+    "stop_id":"836GA00003",
+    "stop_name":"Cahir Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.97517437571079,52.8390672929589 ]
+    },
+    "properties": {
+    "stop_id":"836GA00008",
+    "stop_name":"Ennis Train Station",
+    "location_type":"",
+    "parent_station":"Parent16389"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.97505525100292,52.8390502953333 ]
+    },
+    "properties": {
+    "stop_id":"836GA00009",
+    "stop_name":"Ennis Train Station",
+    "location_type":"",
+    "parent_station":"Parent16389"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.78365817535537,52.7376722433866 ]
+    },
+    "properties": {
+    "stop_id":"836GA00011",
+    "stop_name":"Sixmilebridge Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.89937450179052,52.128889226832 ]
+    },
+    "properties": {
+    "stop_id":"838GA00004",
+    "stop_name":"Banteer Train Station",
+    "location_type":"",
+    "parent_station":"Parent10636"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.89941650252602,52.1287990159539 ]
+    },
+    "properties": {
+    "stop_id":"838GA00005",
+    "stop_name":"Banteer Train Station",
+    "location_type":"",
+    "parent_station":"Parent10636"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.32395080166838,51.8692776884437 ]
+    },
+    "properties": {
+    "stop_id":"838GA00008",
+    "stop_name":"Carrigaloe Train Station",
+    "location_type":"",
+    "parent_station":"Parent26137"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.32429645697972,51.8688812108019 ]
+    },
+    "properties": {
+    "stop_id":"838GA00009",
+    "stop_name":"Carrigaloe Train Station",
+    "location_type":"",
+    "parent_station":"Parent26137"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.65349193837173,52.347424858799 ]
+    },
+    "properties": {
+    "stop_id":"838GA00012",
+    "stop_name":"Charleville Train Station",
+    "location_type":"",
+    "parent_station":"Parent26142"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.65362415727262,52.3474331161009 ]
+    },
+    "properties": {
+    "stop_id":"838GA00013",
+    "stop_name":"Charleville Train Station",
+    "location_type":"",
+    "parent_station":"Parent26142"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.30065255865961,51.8487182424 ]
+    },
+    "properties": {
+    "stop_id":"838GA00019",
+    "stop_name":"Cobh Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.45765627812639,51.9016622461674 ]
+    },
+    "properties": {
+    "stop_id":"838GA00022",
+    "stop_name":"Cork Kent Train Station",
+    "location_type":"",
+    "parent_station":"Parent26193"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.45765573007407,51.9016083131023 ]
+    },
+    "properties": {
+    "stop_id":"838GA00023",
+    "stop_name":"Cork Kent Train Station",
+    "location_type":"",
+    "parent_station":"Parent26193"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.32205191149717,51.8494167034405 ]
+    },
+    "properties": {
+    "stop_id":"838GA00033",
+    "stop_name":"Rushbrooke Train Station",
+    "location_type":"",
+    "parent_station":"Parent26143"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.32292535116115,51.849773878918 ]
+    },
+    "properties": {
+    "stop_id":"838GA00034",
+    "stop_name":"Rushbrooke Train Station",
+    "location_type":"",
+    "parent_station":"Parent26143"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.31847335238823,51.8955770436765 ]
+    },
+    "properties": {
+    "stop_id":"838GA00036",
+    "stop_name":"Fota Train Station",
+    "location_type":"",
+    "parent_station":"Parent26135"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.31850215679538,51.895541009033 ]
+    },
+    "properties": {
+    "stop_id":"838GA00037",
+    "stop_name":"Fota Train Station",
+    "location_type":"",
+    "parent_station":"Parent26135"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.65551808839932,52.1387936430858 ]
+    },
+    "properties": {
+    "stop_id":"838GA00042",
+    "stop_name":"Mallow Train Station",
+    "location_type":"",
+    "parent_station":"Parent26141"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.65567995969913,52.1388736434842 ]
+    },
+    "properties": {
+    "stop_id":"838GA00043",
+    "stop_name":"Mallow Train Station",
+    "location_type":"",
+    "parent_station":"Parent26141"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.06977954021212,52.0775943265877 ]
+    },
+    "properties": {
+    "stop_id":"838GA00048",
+    "stop_name":"Millstreet Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.324848609671,51.9112457084802 ]
+    },
+    "properties": {
+    "stop_id":"838GA00051",
+    "stop_name":"Glounthaune Train Station",
+    "location_type":"",
+    "parent_station":"Parent26136"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.32487715948231,51.9111737164769 ]
+    },
+    "properties": {
+    "stop_id":"838GA00052",
+    "stop_name":"Glounthaune Train Station",
+    "location_type":"",
+    "parent_station":"Parent26136"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.35476268771602,51.9077794250473 ]
+    },
+    "properties": {
+    "stop_id":"838GA00057",
+    "stop_name":"Castleview, Little Island Train Station",
+    "location_type":"",
+    "parent_station":"Parent10415"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.35474744633146,51.9076895793567 ]
+    },
+    "properties": {
+    "stop_id":"838GA00058",
+    "stop_name":"Castleview, Little Island Train Station",
+    "location_type":"",
+    "parent_station":"Parent10415"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.26142150946477,51.9166083759628 ]
+    },
+    "properties": {
+    "stop_id":"838GA00062",
+    "stop_name":"Carrigtwohill Train Station",
+    "location_type":"",
+    "parent_station":"Parent2163"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.17595148393186,51.9212796983569 ]
+    },
+    "properties": {
+    "stop_id":"838GA00065",
+    "stop_name":"Midleton Train Station",
+    "location_type":"",
+    "parent_station":"Parent2162"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.17598119214018,51.9214414579468 ]
+    },
+    "properties": {
+    "stop_id":"838GA00066",
+    "stop_name":"Midleton Train Station",
+    "location_type":"",
+    "parent_station":"Parent2162"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.69749203602509,52.2710004831635 ]
+    },
+    "properties": {
+    "stop_id":"839GA00003",
+    "stop_name":"Tralee Train Station",
+    "location_type":"",
+    "parent_station":"Parent17393"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.69747361447666,52.2709018629722 ]
+    },
+    "properties": {
+    "stop_id":"839GA00004",
+    "stop_name":"Tralee Train Station",
+    "location_type":"",
+    "parent_station":"Parent17393"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.21761955271832,52.0853558504534 ]
+    },
+    "properties": {
+    "stop_id":"839GA00009",
+    "stop_name":"Rathmore Train Station",
+    "location_type":"",
+    "parent_station":"Parent12231"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.21759233400338,52.0854280463793 ]
+    },
+    "properties": {
+    "stop_id":"839GA00010",
+    "stop_name":"Rathmore Train Station",
+    "location_type":"",
+    "parent_station":"Parent12231"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.55245899982815,52.1738340780065 ]
+    },
+    "properties": {
+    "stop_id":"839GA00013",
+    "stop_name":"Farranfore Train Station, Farranfore Train Station",
+    "location_type":"",
+    "parent_station":"Parent12330"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.55265118052538,52.173894475127 ]
+    },
+    "properties": {
+    "stop_id":"839GA00014",
+    "stop_name":"Farranfore Train Station, Farranfore Train Station",
+    "location_type":"",
+    "parent_station":"Parent12330"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.50158244948966,52.0592915410596 ]
+    },
+    "properties": {
+    "stop_id":"839GA00020",
+    "stop_name":"Killarney Train Station",
+    "location_type":"",
+    "parent_station":"Parent17392"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.50090555468061,52.0591113825328 ]
+    },
+    "properties": {
+    "stop_id":"839GA00021",
+    "stop_name":"Killarney Train Station",
+    "location_type":"",
+    "parent_station":"Parent17392"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.498010154496,52.7131775092779 ]
+    },
+    "properties": {
+    "stop_id":"841GA00003",
+    "stop_name":"Castleconnell Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.62325133275199,52.6584592015683 ]
+    },
+    "properties": {
+    "stop_id":"841GA00007",
+    "stop_name":"Limerick Train Station",
+    "location_type":"",
+    "parent_station":"Parent17387"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.62333950314327,52.6584227854047 ]
+    },
+    "properties": {
+    "stop_id":"841GA00008",
+    "stop_name":"Limerick Train Station",
+    "location_type":"",
+    "parent_station":"Parent17387"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.16179516185323,52.4701673357443 ]
+    },
+    "properties": {
+    "stop_id":"843GA00004",
+    "stop_name":"Tipperary Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.82205108816361,52.6762415927607 ]
+    },
+    "properties": {
+    "stop_id":"843GA00008",
+    "stop_name":"Thurles Train Station",
+    "location_type":"",
+    "parent_station":"Parent12671"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.8221398107719,52.6762417259176 ]
+    },
+    "properties": {
+    "stop_id":"843GA00009",
+    "stop_name":"Thurles Train Station",
+    "location_type":"",
+    "parent_station":"Parent12671"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.82248505290239,52.787979463058 ]
+    },
+    "properties": {
+    "stop_id":"843GA00015",
+    "stop_name":"Templemore Train Station",
+    "location_type":"",
+    "parent_station":"Parent26169"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.82260387187896,52.787925714021 ]
+    },
+    "properties": {
+    "stop_id":"843GA00016",
+    "stop_name":"Templemore Train Station",
+    "location_type":"",
+    "parent_station":"Parent26169"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.44208197239704,52.7658886608965 ]
+    },
+    "properties": {
+    "stop_id":"843GA00018",
+    "stop_name":"Birdhill Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.40473995935144,52.3491257809225 ]
+    },
+    "properties": {
+    "stop_id":"843GA00020",
+    "stop_name":"Carrick on Suir Train Station",
+    "location_type":"",
+    "parent_station":"Parent26174"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.40466560844151,52.3491973149019 ]
+    },
+    "properties": {
+    "stop_id":"843GA00021",
+    "stop_name":"Carrick on Suir Train Station",
+    "location_type":"",
+    "parent_station":"Parent26174"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.69978734870974,52.3610927779737 ]
+    },
+    "properties": {
+    "stop_id":"843GA00024",
+    "stop_name":"Clonmel Train Station",
+    "location_type":"",
+    "parent_station":"Parent26173"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.69972807417866,52.3611735235098 ]
+    },
+    "properties": {
+    "stop_id":"843GA00025",
+    "stop_name":"Clonmel Train Station",
+    "location_type":"",
+    "parent_station":"Parent26173"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.02444077973259,52.9364151298359 ]
+    },
+    "properties": {
+    "stop_id":"843GA00029",
+    "stop_name":"Cloughjordan Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.79445119330649,52.96073094961 ]
+    },
+    "properties": {
+    "stop_id":"843GA00032",
+    "stop_name":"Roscrea Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.19518482882998,52.8604737389961 ]
+    },
+    "properties": {
+    "stop_id":"843GA00035",
+    "stop_name":"Nenagh Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.19896809600047,52.501731320373 ]
+    },
+    "properties": {
+    "stop_id":"843GA00038",
+    "stop_name":"Limerick Junction Train Station",
+    "location_type":"",
+    "parent_station":"Parent26175"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.19918922604518,52.5017758895029 ]
+    },
+    "properties": {
+    "stop_id":"843GA00039",
+    "stop_name":"Limerick Junction Train Station",
+    "location_type":"",
+    "parent_station":"Parent26175"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.11752121569008,52.2664218283333 ]
+    },
+    "properties": {
+    "stop_id":"845GA00003",
+    "stop_name":"Waterford Train Station",
+    "location_type":"",
+    "parent_station":"Parent17745"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.11830975030724,52.266553563003 ]
+    },
+    "properties": {
+    "stop_id":"845GA00004",
+    "stop_name":"Waterford Train Station",
+    "location_type":"",
+    "parent_station":"Parent17745"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.47144121764673,53.3431296603904 ]
+    },
+    "properties": {
+    "stop_id":"847GA00003",
+    "stop_name":"Woodlawn Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.81474058359037,53.1573718946414 ]
+    },
+    "properties": {
+    "stop_id":"847GA00005",
+    "stop_name":"Ardrahan Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.74853958997018,53.3012439832657 ]
+    },
+    "properties": {
+    "stop_id":"847GA00010",
+    "stop_name":"Athenry Train Station",
+    "location_type":"",
+    "parent_station":"Parent12380"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.74874975965994,53.3012516514083 ]
+    },
+    "properties": {
+    "stop_id":"847GA00011",
+    "stop_name":"Athenry Train Station",
+    "location_type":"",
+    "parent_station":"Parent12380"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.60573028207473,53.321332037645 ]
+    },
+    "properties": {
+    "stop_id":"847GA00014",
+    "stop_name":"Attymon Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.04595868592423,53.2732217231379 ]
+    },
+    "properties": {
+    "stop_id":"847GA00019",
+    "stop_name":"Galway Train Station",
+    "location_type":"",
+    "parent_station":"Parent17678"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.0452200178005,53.2730574385092 ]
+    },
+    "properties": {
+    "stop_id":"847GA00020",
+    "stop_name":"Galway Train Station",
+    "location_type":"",
+    "parent_station":"Parent17678"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.73603100764268,53.2263770458402 ]
+    },
+    "properties": {
+    "stop_id":"847GA00023",
+    "stop_name":"Craughwell Train Station",
+    "location_type":"",
+    "parent_station":"Parent17030"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.24107210685217,53.3362143907891 ]
+    },
+    "properties": {
+    "stop_id":"847GA00027",
+    "stop_name":"Ballinasloe Train Station",
+    "location_type":"",
+    "parent_station":"Parent26254"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.24192665114873,53.335987987285 ]
+    },
+    "properties": {
+    "stop_id":"847GA00028",
+    "stop_name":"Ballinasloe Train Station",
+    "location_type":"",
+    "parent_station":"Parent26254"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.81423702724472,53.067491008805 ]
+    },
+    "properties": {
+    "stop_id":"847GA00031",
+    "stop_name":"Gort Train Station",
+    "location_type":"",
+    "parent_station":"Parent11683"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.81398305996667,53.0674747711638 ]
+    },
+    "properties": {
+    "stop_id":"847GA00032",
+    "stop_name":"Gort Train Station",
+    "location_type":"",
+    "parent_station":"Parent11683"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.94490548482309,53.2759256965453 ]
+    },
+    "properties": {
+    "stop_id":"847GA00050",
+    "stop_name":"Oranmore Train Station",
+    "location_type":"",
+    "parent_station":"Parent2945"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.10674577713362,53.9384241693464 ]
+    },
+    "properties": {
+    "stop_id":"848GA00004",
+    "stop_name":"Carrick on Shannon Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.91648579332061,53.8590683909136 ]
+    },
+    "properties": {
+    "stop_id":"848GA00007",
+    "stop_name":"Dromod Train Station",
+    "location_type":"",
+    "parent_station":"Parent11667"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.9166226734734,53.8590325414657 ]
+    },
+    "properties": {
+    "stop_id":"848GA00008",
+    "stop_name":"Dromod Train Station",
+    "location_type":"",
+    "parent_station":"Parent11667"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.50996354296246,53.7960517479212 ]
+    },
+    "properties": {
+    "stop_id":"849GA00003",
+    "stop_name":"Westport Train Station",
+    "location_type":"",
+    "parent_station":"Parent26166"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.51008298969987,53.7959963205253 ]
+    },
+    "properties": {
+    "stop_id":"849GA00004",
+    "stop_name":"Westport Train Station",
+    "location_type":"",
+    "parent_station":"Parent26166"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.16092654125255,54.1091938954835 ]
+    },
+    "properties": {
+    "stop_id":"849GA00007",
+    "stop_name":"Ballina Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.75878040333743,53.7616219287377 ]
+    },
+    "properties": {
+    "stop_id":"849GA00010",
+    "stop_name":"Ballyhaunis Train Station",
+    "location_type":"",
+    "parent_station":"Parent26167"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.75874796870191,53.7615053090705 ]
+    },
+    "properties": {
+    "stop_id":"849GA00011",
+    "stop_name":"Ballyhaunis Train Station",
+    "location_type":"",
+    "parent_station":"Parent26167"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.28835275750762,53.8473915014302 ]
+    },
+    "properties": {
+    "stop_id":"849GA00014",
+    "stop_name":"Castlebar Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.00237487187041,53.7205694490519 ]
+    },
+    "properties": {
+    "stop_id":"849GA00017",
+    "stop_name":"Claremorris Train Station",
+    "location_type":"",
+    "parent_station":"Parent26164"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.00270750148831,53.7205397055736 ]
+    },
+    "properties": {
+    "stop_id":"849GA00018",
+    "stop_name":"Claremorris Train Station",
+    "location_type":"",
+    "parent_station":"Parent26164"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.19236944765064,53.8278220253742 ]
+    },
+    "properties": {
+    "stop_id":"849GA00022",
+    "stop_name":"Manulla Junction Train Station",
+    "location_type":"",
+    "parent_station":"Parent26165"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.1923676615378,53.8277591356138 ]
+    },
+    "properties": {
+    "stop_id":"849GA00023",
+    "stop_name":"Manulla Junction Train Station",
+    "location_type":"",
+    "parent_station":"Parent26165"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.13649137883247,53.9828534369009 ]
+    },
+    "properties": {
+    "stop_id":"849GA00037",
+    "stop_name":"Foxford Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.30477736783425,53.9673884656881 ]
+    },
+    "properties": {
+    "stop_id":"850GA00004",
+    "stop_name":"Boyle Train Station",
+    "location_type":"",
+    "parent_station":"Parent12019"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.30482380955576,53.9674871941898 ]
+    },
+    "properties": {
+    "stop_id":"850GA00005",
+    "stop_name":"Boyle Train Station",
+    "location_type":"",
+    "parent_station":"Parent12019"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.19630332613438,53.6243843259043 ]
+    },
+    "properties": {
+    "stop_id":"850GA00010",
+    "stop_name":"Roscommon Train Station",
+    "location_type":"",
+    "parent_station":"Parent26176"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.19645440704667,53.6243661050067 ]
+    },
+    "properties": {
+    "stop_id":"850GA00011",
+    "stop_name":"Roscommon Train Station",
+    "location_type":"",
+    "parent_station":"Parent26176"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.48577500331497,53.7614933766857 ]
+    },
+    "properties": {
+    "stop_id":"850GA00015",
+    "stop_name":"Castlerea Train Station",
+    "location_type":"",
+    "parent_station":"Parent26177"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.48585031058274,53.7614481395306 ]
+    },
+    "properties": {
+    "stop_id":"850GA00016",
+    "stop_name":"Castlerea Train Station",
+    "location_type":"",
+    "parent_station":"Parent26177"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.48242666924974,54.2721820042883 ]
+    },
+    "properties": {
+    "stop_id":"851GA00001",
+    "stop_name":"Sligo Train Station",
+    "location_type":"",
+    "parent_station":"Parent17360"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.48244265096045,54.2722358541409 ]
+    },
+    "properties": {
+    "stop_id":"851GA00002",
+    "stop_name":"Sligo Train Station",
+    "location_type":"",
+    "parent_station":"Parent17360"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.52085556755475,54.088181952375 ]
+    },
+    "properties": {
+    "stop_id":"851GA00007",
+    "stop_name":"Ballymote Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.49486532341431,54.1865158417817 ]
+    },
+    "properties": {
+    "stop_id":"851GA00009",
+    "stop_name":"Collooney Train Station",
+    "location_type":"",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.91757841082084,54.5934040190388 ]
+    },
+    "properties": {
+    "stop_id":"g:31400:11:4",
+    "stop_name":"Belfast Central Train Station",
+    "location_type":"",
+    "parent_station":"Parent2157"
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.35521201131411,51.9076252541248 ]
+    },
+    "properties": {
+    "stop_id":"Parent10415",
+    "stop_name":"Little Island Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.89902419857919,52.128900887029 ]
+    },
+    "properties": {
+    "stop_id":"Parent10636",
+    "stop_name":"Banteer Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.59061399738947,53.3780875620751 ]
+    },
+    "properties": {
+    "stop_id":"Parent11012",
+    "stop_name":"Maynooth Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2423128428885,53.6790996693602 ]
+    },
+    "properties": {
+    "stop_id":"Parent11292",
+    "stop_name":"Laytown Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.91640969894148,53.8591132687119 ]
+    },
+    "properties": {
+    "stop_id":"Parent11667",
+    "stop_name":"Dromod Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.81405426752634,53.0672945320169 ]
+    },
+    "properties": {
+    "stop_id":"Parent11683",
+    "stop_name":"Gort Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.30461077450152,53.9675326645556 ]
+    },
+    "properties": {
+    "stop_id":"Parent12019",
+    "stop_name":"Boyle Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.21798571558099,52.0854060034251 ]
+    },
+    "properties": {
+    "stop_id":"Parent12231",
+    "stop_name":"Rathmore Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.55213591356996,52.1737933822869 ]
+    },
+    "properties": {
+    "stop_id":"Parent12330",
+    "stop_name":"Farranfore Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.74853244615451,53.3016933887473 ]
+    },
+    "properties": {
+    "stop_id":"Parent12380",
+    "stop_name":"Athenry Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.82207854445338,52.6767629354437 ]
+    },
+    "properties": {
+    "stop_id":"Parent12671",
+    "stop_name":"Thurles Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.22674187686147,53.3630255437244 ]
+    },
+    "properties": {
+    "stop_id":"Parent12934",
+    "stop_name":"Clontarf Road Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.13519262214905,53.294774856826 ]
+    },
+    "properties": {
+    "stop_id":"Parent14524",
+    "stop_name":"Dun Laoghaire Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.93579696204497,53.4269923694427 ]
+    },
+    "properties": {
+    "stop_id":"Parent16225",
+    "stop_name":"Athlone Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.79607971794762,53.7243008867781 ]
+    },
+    "properties": {
+    "stop_id":"Parent16275",
+    "stop_name":"Longford Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.97526462529119,52.839120479872 ]
+    },
+    "properties": {
+    "stop_id":"Parent16389",
+    "stop_name":"Ennis Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.30144671791778,53.0370664999382 ]
+    },
+    "properties": {
+    "stop_id":"Parent16858",
+    "stop_name":"Portlaoise Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.50674107806928,53.3699943669995 ]
+    },
+    "properties": {
+    "stop_id":"Parent16883",
+    "stop_name":"Leixlip Louisa Bridge Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.73589638887186,53.2263868643931 ]
+    },
+    "properties": {
+    "stop_id":"Parent17030",
+    "stop_name":"Craughwell Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.48191816437535,54.2720222961914 ]
+    },
+    "properties": {
+    "stop_id":"Parent17360",
+    "stop_name":"Sligo Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.62446882417555,52.6588392814749 ]
+    },
+    "properties": {
+    "stop_id":"Parent17387",
+    "stop_name":"Limerick Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.50209176038533,52.0592580807582 ]
+    },
+    "properties": {
+    "stop_id":"Parent17392",
+    "stop_name":"Killarney Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.69887111964513,52.2710435717879 ]
+    },
+    "properties": {
+    "stop_id":"Parent17393",
+    "stop_name":"Tralee Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.04680865546401,53.2736456625804 ]
+    },
+    "properties": {
+    "stop_id":"Parent17678",
+    "stop_name":"Galway Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.11813717506712,52.2663904751075 ]
+    },
+    "properties": {
+    "stop_id":"Parent17745",
+    "stop_name":"Waterford Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.20422338780929,53.3728993400916 ]
+    },
+    "properties": {
+    "stop_id":"Parent2092",
+    "stop_name":"Killester Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.91737025645543,54.5953596020421 ]
+    },
+    "properties": {
+    "stop_id":"Parent2157",
+    "stop_name":"Belfast Central Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.04542677125345,54.5139183316835 ]
+    },
+    "properties": {
+    "stop_id":"Parent2158",
+    "stop_name":"Lisburn Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.3378669673884,54.4673033916188 ]
+    },
+    "properties": {
+    "stop_id":"Parent2159",
+    "stop_name":"Lurgan Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.44700050512428,54.4241380507287 ]
+    },
+    "properties": {
+    "stop_id":"Parent2160",
+    "stop_name":"Portadown Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.36254961470339,54.1887226946025 ]
+    },
+    "properties": {
+    "stop_id":"Parent2161",
+    "stop_name":"Newry Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.17589350852131,51.9213247305539 ]
+    },
+    "properties": {
+    "stop_id":"Parent2162",
+    "stop_name":"Midleton Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2612457189571,51.9163750488407 ]
+    },
+    "properties": {
+    "stop_id":"Parent2163",
+    "stop_name":"Carrigtwohill Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.31860392548806,51.8955497227477 ]
+    },
+    "properties": {
+    "stop_id":"Parent26135",
+    "stop_name":"Fota Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.32508128925261,51.9112630443952 ]
+    },
+    "properties": {
+    "stop_id":"Parent26136",
+    "stop_name":"Glounthaune Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.32429645697972,51.8688812108019 ]
+    },
+    "properties": {
+    "stop_id":"Parent26137",
+    "stop_name":"Carrigaloe Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15218083991784,53.2953359428403 ]
+    },
+    "properties": {
+    "stop_id":"Parent26138",
+    "stop_name":"Salthill And Monkstown Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.65530266800116,52.1390465297394 ]
+    },
+    "properties": {
+    "stop_id":"Parent26141",
+    "stop_name":"Mallow Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.6536951522254,52.3472709286493 ]
+    },
+    "properties": {
+    "stop_id":"Parent26142",
+    "stop_name":"Charleville Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.32269215399673,51.8496396801329 ]
+    },
+    "properties": {
+    "stop_id":"Parent26143",
+    "stop_name":"Rushbrooke Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.13712274007822,53.3913482796485 ]
+    },
+    "properties": {
+    "stop_id":"Parent26144",
+    "stop_name":"Bayside Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.14923896924355,53.4025023691233 ]
+    },
+    "properties": {
+    "stop_id":"Parent26145",
+    "stop_name":"Clongriffin Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.1512199189604,53.4182084520073 ]
+    },
+    "properties": {
+    "stop_id":"Parent26146",
+    "stop_name":"Portmarnock Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.23934406779262,53.3507456150681 ]
+    },
+    "properties": {
+    "stop_id":"Parent26147",
+    "stop_name":"Docklands Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.24965906306524,53.3512299421367 ]
+    },
+    "properties": {
+    "stop_id":"Parent26148",
+    "stop_name":"Connolly Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.33232975061206,53.3752974775524 ]
+    },
+    "properties": {
+    "stop_id":"Parent26149",
+    "stop_name":"Ashtown Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.16087336307183,53.3873123762032 ]
+    },
+    "properties": {
+    "stop_id":"Parent26151",
+    "stop_name":"Kilbarrack Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.23805387129415,53.3397790073487 ]
+    },
+    "properties": {
+    "stop_id":"Parent26152",
+    "stop_name":"Grand Canal Dock Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.21162466949517,53.3207082568966 ]
+    },
+    "properties": {
+    "stop_id":"Parent26153",
+    "stop_name":"Sydney Parade Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2208544075736,53.3279739288161 ]
+    },
+    "properties": {
+    "stop_id":"Parent26155",
+    "stop_name":"Sandymount Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.25853297546864,53.3631162278047 ]
+    },
+    "properties": {
+    "stop_id":"Parent26156",
+    "stop_name":"Drumcondra Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.24936748565099,53.3433161119437 ]
+    },
+    "properties": {
+    "stop_id":"Parent26157",
+    "stop_name":"Pearse Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.22911022485943,53.3338132606463 ]
+    },
+    "properties": {
+    "stop_id":"Parent26158",
+    "stop_name":"Lansdowne Road Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.29294670308354,53.3464642677778 ]
+    },
+    "properties": {
+    "stop_id":"Parent26159",
+    "stop_name":"Heuston Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.19138285193728,53.3787005404306 ]
+    },
+    "properties": {
+    "stop_id":"Parent26160",
+    "stop_name":"Harmonstown Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.17594856291328,53.3814407367424 ]
+    },
+    "properties": {
+    "stop_id":"Parent26161",
+    "stop_name":"Raheny Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.00225624616602,53.7206782826469 ]
+    },
+    "properties": {
+    "stop_id":"Parent26164",
+    "stop_name":"Claremorris Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.19235324065012,53.8277862393194 ]
+    },
+    "properties": {
+    "stop_id":"Parent26165",
+    "stop_name":"Manulla Junction Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.51004263502418,53.7961406237597 ]
+    },
+    "properties": {
+    "stop_id":"Parent26166",
+    "stop_name":"Westport Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.75878088930352,53.7616488852677 ]
+    },
+    "properties": {
+    "stop_id":"Parent26167",
+    "stop_name":"Ballyhaunis Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.25460594759361,53.3474375190925 ]
+    },
+    "properties": {
+    "stop_id":"Parent26168",
+    "stop_name":"Tara Street Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.82258842544953,52.7880784832989 ]
+    },
+    "properties": {
+    "stop_id":"Parent26169",
+    "stop_name":"Templemore Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.6995380063644,52.3610561904913 ]
+    },
+    "properties": {
+    "stop_id":"Parent26173",
+    "stop_name":"Clonmel Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.40440432148739,52.348980272599 ]
+    },
+    "properties": {
+    "stop_id":"Parent26174",
+    "stop_name":"Carrick on Suir Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.19993687158907,52.5010016412368 ]
+    },
+    "properties": {
+    "stop_id":"Parent26175",
+    "stop_name":"Limerick Junction Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.19627292648683,53.6243484296673 ]
+    },
+    "properties": {
+    "stop_id":"Parent26176",
+    "stop_name":"Roscommon Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.48571475738421,53.7615295663757 ]
+    },
+    "properties": {
+    "stop_id":"Parent26177",
+    "stop_name":"Castlerea Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2993820681071,53.3727023853219 ]
+    },
+    "properties": {
+    "stop_id":"Parent26178",
+    "stop_name":"Broombridge Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.46937980690864,53.3360952990591 ]
+    },
+    "properties": {
+    "stop_id":"Parent26179",
+    "stop_name":"Adamstown Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.1598493772568,52.7939139154925 ]
+    },
+    "properties": {
+    "stop_id":"Parent26183",
+    "stop_name":"Arklow Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.05289351307251,52.9880416030787 ]
+    },
+    "properties": {
+    "stop_id":"Parent26184",
+    "stop_name":"Wicklow Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.06106113816845,53.1440585243977 ]
+    },
+    "properties": {
+    "stop_id":"Parent26186",
+    "stop_name":"Greystones Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.10080319279542,53.2045450855341 ]
+    },
+    "properties": {
+    "stop_id":"Parent26187",
+    "stop_name":"Bray Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.22635384250573,52.9301906712215 ]
+    },
+    "properties": {
+    "stop_id":"Parent26188",
+    "stop_name":"Rathdrum Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.56627095185381,52.5044035317268 ]
+    },
+    "properties": {
+    "stop_id":"Parent26189",
+    "stop_name":"Enniscorthy Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.29221112620701,52.6712077852483 ]
+    },
+    "properties": {
+    "stop_id":"Parent26190",
+    "stop_name":"Gorey Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.3915970470997,52.2719242554728 ]
+    },
+    "properties": {
+    "stop_id":"Parent26191",
+    "stop_name":"Rosslare Strand Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.45808023816062,51.9019122944148 ]
+    },
+    "properties": {
+    "stop_id":"Parent26193",
+    "stop_name":"Cork Kent Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15527765954874,53.3915493487573 ]
+    },
+    "properties": {
+    "stop_id":"Parent26194",
+    "stop_name":"Howth Junction and Donaghmede Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.4999755686796,53.2704246430593 ]
+    },
+    "properties": {
+    "stop_id":"Parent26198",
+    "stop_name":"Tullamore Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.34572419129344,53.5225458501573 ]
+    },
+    "properties": {
+    "stop_id":"Parent26199",
+    "stop_name":"Mullingar Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.46914034714262,53.4345355015189 ]
+    },
+    "properties": {
+    "stop_id":"Parent26200",
+    "stop_name":"M3 Parkway Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.46459985766285,53.4172836693229 ]
+    },
+    "properties": {
+    "stop_id":"Parent26201",
+    "stop_name":"Dunboyne Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.10338960268181,53.2757750666854 ]
+    },
+    "properties": {
+    "stop_id":"Parent26202",
+    "stop_name":"Dalkey Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.11288921073397,53.2558636376699 ]
+    },
+    "properties": {
+    "stop_id":"Parent26203",
+    "stop_name":"Killiney Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.11715558753679,53.2365340280488 ]
+    },
+    "properties": {
+    "stop_id":"Parent26204",
+    "stop_name":"Shankill Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.17888227817632,53.3028025397147 ]
+    },
+    "properties": {
+    "stop_id":"Parent26205",
+    "stop_name":"Blackrock Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.12314639258349,53.2810763068278 ]
+    },
+    "properties": {
+    "stop_id":"Parent26206",
+    "stop_name":"Glenageary Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.12691367371927,53.2882094144375 ]
+    },
+    "properties": {
+    "stop_id":"Parent26207",
+    "stop_name":"Sandycove And Glasthule Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.19524058276868,53.309846352609 ]
+    },
+    "properties": {
+    "stop_id":"Parent26208",
+    "stop_name":"Booterstown Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.16541465460772,53.2991446000896 ]
+    },
+    "properties": {
+    "stop_id":"Parent26209",
+    "stop_name":"Seapoint Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.42305056890398,53.3830198479145 ]
+    },
+    "properties": {
+    "stop_id":"Parent26210",
+    "stop_name":"Clonsilla Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.14317657276486,53.5208896648153 ]
+    },
+    "properties": {
+    "stop_id":"Parent26211",
+    "stop_name":"Rush and Lusk Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.06373138237573,53.1454328386294 ]
+    },
+    "properties": {
+    "stop_id":"Parent26212",
+    "stop_name":"Monasterevin Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.66466392246108,53.2469819075197 ]
+    },
+    "properties": {
+    "stop_id":"Parent26213",
+    "stop_name":"Sallins And Naas Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.485424005689,53.3740219133402 ]
+    },
+    "properties": {
+    "stop_id":"Parent26214",
+    "stop_name":"Leixlip Confey Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.52408956203929,53.3224131445071 ]
+    },
+    "properties": {
+    "stop_id":"Parent26215",
+    "stop_name":"Hazelhatch and Celbridge Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.80872874273632,53.1852265004901 ]
+    },
+    "properties": {
+    "stop_id":"Parent26216",
+    "stop_name":"Newbridge Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.97680488027247,52.9925102103025 ]
+    },
+    "properties": {
+    "stop_id":"Parent26217",
+    "stop_name":"Athy Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.9081699375592,53.1628204963629 ]
+    },
+    "properties": {
+    "stop_id":"Parent26218",
+    "stop_name":"Kildare Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.37142171832555,53.3816255254936 ]
+    },
+    "properties": {
+    "stop_id":"Parent26219",
+    "stop_name":"Castleknock Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.11631750017395,53.3919205816421 ]
+    },
+    "properties": {
+    "stop_id":"Parent26220",
+    "stop_name":"Sutton Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.39156982817204,53.3775036518625 ]
+    },
+    "properties": {
+    "stop_id":"Parent26223",
+    "stop_name":"Coolmine Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.11898246076947,53.5740261759656 ]
+    },
+    "properties": {
+    "stop_id":"Parent26224",
+    "stop_name":"Skerries Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.07425824589576,53.3889753639784 ]
+    },
+    "properties": {
+    "stop_id":"Parent26225",
+    "stop_name":"Howth Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15134308612505,53.4857381362235 ]
+    },
+    "properties": {
+    "stop_id":"Parent26226",
+    "stop_name":"Donabate Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.3456030833062,53.3775764019209 ]
+    },
+    "properties": {
+    "stop_id":"Parent26227",
+    "stop_name":"Navan Road Parkway Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.37864140945887,53.3340248083231 ]
+    },
+    "properties": {
+    "stop_id":"Parent26228",
+    "stop_name":"Park West and Cherry Orchard Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.15640107031183,53.4507627182244 ]
+    },
+    "properties": {
+    "stop_id":"Parent26229",
+    "stop_name":"Malahide Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.21673399406095,53.6370542512108 ]
+    },
+    "properties": {
+    "stop_id":"Parent26230",
+    "stop_name":"Gormanston Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.1824183094839,53.6117495465486 ]
+    },
+    "properties": {
+    "stop_id":"Parent26231",
+    "stop_name":"Balbriggan Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.95259384335508,52.6991347943698 ]
+    },
+    "properties": {
+    "stop_id":"Parent26239",
+    "stop_name":"Bagnelstown Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.92254221720235,52.8408614884372 ]
+    },
+    "properties": {
+    "stop_id":"Parent26240",
+    "stop_name":"Carlow Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.40626163207716,53.3334352779229 ]
+    },
+    "properties": {
+    "stop_id":"Parent26241",
+    "stop_name":"Clondalkin Fonthill Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.41271278220519,54.0011013236529 ]
+    },
+    "properties": {
+    "stop_id":"Parent26243",
+    "stop_name":"Dundalk Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.33588880596374,53.7119290100725 ]
+    },
+    "properties": {
+    "stop_id":"Parent26244",
+    "stop_name":"Drogheda Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.60299297603012,53.6888684654307 ]
+    },
+    "properties": {
+    "stop_id":"Parent26245",
+    "stop_name":"Edgeworthstown Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.1815696144389,53.146184148798 ]
+    },
+    "properties": {
+    "stop_id":"Parent26247",
+    "stop_name":"Portarlington Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.60298707853403,52.9000376304636 ]
+    },
+    "properties": {
+    "stop_id":"Parent26249",
+    "stop_name":"Ballybrophy Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.24351705174232,52.6545467728943 ]
+    },
+    "properties": {
+    "stop_id":"Parent26251",
+    "stop_name":"Kilkenny (MacDonagh) Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.23982722973168,53.3364505602225 ]
+    },
+    "properties": {
+    "stop_id":"Parent26254",
+    "stop_name":"Ballinasloe Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.44159513614312,53.3868765120934 ]
+    },
+    "properties": {
+    "stop_id":"Parent2944",
+    "stop_name":"Hansfield Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  },
+  {
+    "type": "Train",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.94426798988301,53.2762542919793 ]
+    },
+    "properties": {
+    "stop_id":"Parent2945",
+    "stop_name":"Oranmore Train Station",
+    "location_type":"1",
+    "parent_station":""
+    }
+  }
+]
+}
