@@ -12,7 +12,7 @@ The purpose of the project is to use a collection of Public Transport and The Ou
 Nodejs and Express to create the server to handle the HTTP, GET, POST, PUT and DELETE requests/responses.
 Databases to store datasets to allow for query, update , delete funtionality.All responses will return in json format in the browser or Curl in the console for development and if possible a front end to demo. 
 
-
+Online file converter to convert from csv to geojson - http://www.convertcsv.com/csv-to-geojson.htm
 
 
 ## Datasets include
@@ -20,22 +20,21 @@ Databases to store datasets to allow for query, update , delete funtionality.All
 ###DS 1
 The Outdoor Recreation Strategy Mapping for West Regional Authority.This dataset includes Galway, Mayo and Roscommon at various locations and wide range of outdoor activities. 
 [Outdoor Recreation Strategy](https://data.gov.ie/dataset/outdoor-recreation-strategy).
-
-Dataset formats include csv, geojson.
+ 
 
 
 ###DS 2
-The public transport dataset I will use is Bus Eireann which is the most inclusive for the region and is free to download from [Public Transport](http://www.transportforireland.ie/transitData/PT_Data.html). As the project proceeds there are other options to include if nessary.
+The public transport dataset I will use is Bus Eireann which is the most inclusive for the region and is free to download from [Public Transport](http://www.transportforireland.ie/transitData/PT_Data.html).The Irish Rail dataset for a list of rail stops throughout the country. As the project proceeds there are other options to include if nessary. All bus providers data has the same format and can be easily added to the database.  
 
 Dataset is in text format.
 
 ###DS 3
-Other datasets may include Blueflag beaches..
+
 
 ## Databases Used
 
-CouchDB-server used to create dbs stops and ors.
-PouchDb on express for db_4all_local which sync's with couchDB-server
+CouchDB-server used to create orsdb.
+PouchDb on express for db_4all_local which sync's with couchDB-server.
 
 
 
