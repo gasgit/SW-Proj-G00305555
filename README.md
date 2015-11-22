@@ -85,7 +85,6 @@ The public transport dataset I will use is Bus Eireann which is the most inclusi
 ```
 
 
-Dataset is in text format.
 
 
 ## Databases Used
