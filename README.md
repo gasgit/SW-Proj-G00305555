@@ -125,10 +125,27 @@ curl -X DELETE http://127.0.0.1:5984/orsdb
 
 ```
 
-//load db from file to couchDB-server.. cd into folder containing json file to post.
+//load db from file to couchDB-server.. cd into folder containing json file to post. All datasets to orsdb
 curl -d @stops_geo.json -H "Content-type: application/json" _id -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
 
 ```
+
+
+```
+// example to curl new bus stop into db 
+curl -X PUT 'http://127.0.0.1:5984/stops/12345' -H 'Content-Type:application/json' -d '{"stop_id":"5222","stop_name":"Emmerson Street","stop_lat":22222,"stop_lon":222222}'
+
+
+```
+
+```
+// example of how to put new bus stop into db from browser or postman.
+http://127.0.0.1:8000/api/stop/put/?_id=999444344546&stop_id=6688866&stop_lat=53.123456&stop_lon=update
+
+```
+
+
+
 
 
 
@@ -174,7 +191,7 @@ app.get('/api/stops/put/', function(req, res){ });
 ```
 
 ```
-// List all activities from db_ors_local
+// List all activities from db_4all_local
 app.get('/api/activities	', function(req, res){ });
 
 ```
