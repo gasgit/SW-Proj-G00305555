@@ -112,7 +112,7 @@ curl -X GET http://127.0.0.1:5984/_all_dbs
 ```
 
 //create db on couchDB-server
-curl -X PUT http://127.0.0.1:5984/orsdb2
+curl -X PUT http://127.0.0.1:5984/orsdb
 
 ```
 
