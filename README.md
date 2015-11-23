@@ -103,14 +103,12 @@ curl http://127.0.0.1:5984/
 ```
 
 ```
-
 //get all dbs listed on couchDb-server
 curl -X GET http://127.0.0.1:5984/_all_dbs
 
 ```
 
 ```
-
 //create db on couchDB-server
 curl -X PUT http://127.0.0.1:5984/orsdb
 
@@ -123,31 +121,48 @@ curl -X DELETE http://127.0.0.1:5984/orsdb
 
 ```
 
-```
-//load db from files to CouchDB-Server.. cd into folder containing json file to post. All datasets to orsdb
 
+To load db from files to CouchDB-Server.. cd into folder containing json files to post. All datasets to orsdb
+
+```
 // Bus Eireann bus stops
 curl -d @stops_geo.json -H "Content-type: application/json" _id -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
 
+```
+
+```
 // Outdoor Recreation Strategy
 curl -d @orsgeo.json -H "Content-type: application/json" -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
 
+```
+
+```
 // Irish Rail Station stops
 curl -d @irishrail_stopsgeo.json -H "Content-type: application/json" -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
 
 ```
 
+```
+// example to curl new bus stop into couchdb 
+curl -X PUT 'http://127.0.0.1:5984/orsdb/12345' -H 'Content-Type:application/json' -d '{"stop_id":"5222","stop_name":"Emmerson Street","stop_lat":22222,"stop_lon":222222}'
 
 ```
-// example to curl new bus stop into db 
-curl -X PUT 'http://127.0.0.1:5984/stops/12345' -H 'Content-Type:application/json' -d '{"stop_id":"5222","stop_name":"Emmerson Street","stop_lat":22222,"stop_lon":222222}'
 
+```
+// example to curl new activity into couchdb
+//curl -X PUT 'http://127.0.0.1:5984/orsdb/333456' -H 'Content-Type:application/json' -d '{"type": "Bus","geometry": {"type":"Point", "coordinates":[-9.000, 53.12345]},"properties":{"_id":333456,"stop_id" : 654321}}'
 
 ```
 
 ```
 // example of how to put new bus stop into db from browser or postman.
-http://127.0.0.1:8000/api/stop/put/?_id=999444344546&stop_id=6688866&stop_lat=53.123456&stop_lon=update
+http://127.0.0.1:8000/api/stops/put/?type=Bus&gtype=Point&lon=-9&lat=53.00&_id=44231111glen444344546&stop_id=888
+
+```
+
+```
+// example of how to put new activity into db from browser or postman.
+http://127.0.0.1:8000/api/activities/put/?type=Ors&gtype=Point&lon=-9&lat=53.00&_id=44431111glen444344546&x=53.00&y=-9&fid=555&ref=MO123&name=hello&descriptio=test&email=mail@mail.com&web=hairy.com&phone=1234567890
 
 ```
 
