@@ -133,6 +133,7 @@ curl -d @stops_geo.json -H "Content-type: application/json" _id -X POST http://1
 curl -d @orsgeo.json -H "Content-type: application/json" -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
 // Irish Rail Station stops
 curl -d @irishrail_stopsgeo.json -H "Content-type: application/json" -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
+sudo apt-get install git
 
 
 ```

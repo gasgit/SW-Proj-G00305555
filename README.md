@@ -124,16 +124,16 @@ curl -X DELETE http://127.0.0.1:5984/orsdb
 ```
 
 ```
-
 //load db from files to CouchDB-Server.. cd into folder containing json file to post. All datasets to orsdb
 
 // Bus Eireann bus stops
 curl -d @stops_geo.json -H "Content-type: application/json" _id -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
+
 // Outdoor Recreation Strategy
 curl -d @orsgeo.json -H "Content-type: application/json" -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
+
 // Irish Rail Station stops
 curl -d @irishrail_stopsgeo.json -H "Content-type: application/json" -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
-
 
 ```
 
