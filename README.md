@@ -87,10 +87,13 @@ The public transport dataset I will use is Bus Eireann which is the most inclusi
 
 
 
-### Databases Used
+### Databases and documentation Used
 
 CouchDB-server used to create orsdb.
+http://docs.couchdb.org/en/1.6.1/intro/api.html
+
 PouchDb on express for db_4all_local which sync's with couchDB-server.
+http://pouchdb.com/api.html
 
 
 ## cURL

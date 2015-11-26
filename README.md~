@@ -122,16 +122,21 @@ curl -X DELETE http://127.0.0.1:5984/orsdb
 ```
 
 
-To load db from files to CouchDB-Server.. cd into folder containing json file to post. All datasets to orsdb
+To load db from files to CouchDB-Server.. cd into folder containing json files to post. All datasets to orsdb
 
 ```
-
 // Bus Eireann bus stops
 curl -d @stops_geo.json -H "Content-type: application/json" _id -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
 
+```
+
+```
 // Outdoor Recreation Strategy
 curl -d @orsgeo.json -H "Content-type: application/json" -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
 
+```
+
+```
 // Irish Rail Station stops
 curl -d @irishrail_stopsgeo.json -H "Content-type: application/json" -X POST http://127.0.0.1:5984/orsdb/_bulk_docs
 
@@ -141,6 +146,9 @@ curl -d @irishrail_stopsgeo.json -H "Content-type: application/json" -X POST htt
 // example to curl new bus stop into couchdb 
 curl -X PUT 'http://127.0.0.1:5984/orsdb/12345' -H 'Content-Type:application/json' -d '{"stop_id":"5222","stop_name":"Emmerson Street","stop_lat":22222,"stop_lon":222222}'
 
+```
+
+```
 // example to curl new activity into couchdb
 //curl -X PUT 'http://127.0.0.1:5984/orsdb/333456' -H 'Content-Type:application/json' -d '{"type": "Bus","geometry": {"type":"Point", "coordinates":[-9.000, 53.12345]},"properties":{"_id":333456,"stop_id" : 654321}}'
 
