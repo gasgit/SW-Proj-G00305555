@@ -9,7 +9,7 @@ The purpose of the project is to use a collection of Public Transport and The Ou
 
 ### Tools and Methods
 
-Nodejs and Express to create the server to handle the HTTP, GET, POST, PUT and DELETE requests/responses.
+Nodejs and Express to create the server to handle the HTTP, GET, PUT and DELETE requests/responses.
 Databases to store datasets to allow for query, update , delete funtionality.All responses will return in json format in the browser or Curl in the console for development and if possible a front end to demo. 
 
 Online file converter to convert from csv to geojson - http://www.convertcsv.com/csv-to-geojson.htm
