@@ -20,7 +20,7 @@ function syncWithCouchDB() {
 
 }
 
-syncWithCouchDB();
+//syncWithCouchDB();
 // debug info
 PouchDB.debug.enable('*');
 
@@ -145,7 +145,7 @@ app.get('/api/stops/delete/', function(req, res) {
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-app.get('/api/stops/put/*', function(req, res) {
+app.put('/api/stops/put/*', function(req, res) {
 
 
 	var array = {
@@ -189,7 +189,7 @@ app.get('/api/stops/put/*', function(req, res) {
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 app.get('/api/activities', function(req, res) {
-	start();
+	//start();
 	var map = function(doc) {
 		if (doc.type === "Ors")
 
@@ -210,7 +210,7 @@ app.get('/api/activities', function(req, res) {
 	}, function(err, response) {
 
 		res.send(err || response);
-		stop();
+		//stop();
 
 	})
 })
@@ -224,7 +224,7 @@ app.get('/api/activities', function(req, res) {
 
 
 app.get('/api/activities/search/', function(req, res) {
-	start();
+	//start();
 	var searchterm = req.query.searchterm
 	var searchactivity = searchterm.toLowerCase();
 
@@ -241,7 +241,7 @@ app.get('/api/activities/search/', function(req, res) {
 	}).then(function(result) {
 
 		res.send(result);
-		stop();
+		//stop();
 		//console.log(result);
 
 	}).catch(function(err) {
@@ -257,7 +257,7 @@ app.get('/api/activities/search/', function(req, res) {
 
 app.get('/api/activities/search/name/', function(req, res) {
 
-	start();
+	//start();
 
 	var searchterm = req.query.searchterm
 	var searchname = searchterm.toLowerCase();
@@ -276,7 +276,7 @@ app.get('/api/activities/search/name/', function(req, res) {
 
 		res.send(result);
 		//console.log(result);
-		stop();
+		//stop();
 
 	}).catch(function(err) {
 		console.log(err);
@@ -295,7 +295,7 @@ app.get('/api/activities/search/name/', function(req, res) {
 
 
 app.get('/api/trains', function(req, res) {
-	start();
+	//start();
 	db_4all_local.query(function(doc, emit) {
 
 		if (doc.type == 'Train' && doc.properties.stop_name)
@@ -313,7 +313,7 @@ app.get('/api/trains', function(req, res) {
 
 		res.send(result);
 		//console.log(result);
-		stop();
+		//stop();
 
 	}).catch(function(err) {
 		console.log(err);
@@ -329,7 +329,7 @@ app.get('/api/trains', function(req, res) {
 
 
 app.get('/api/trains/search/', function(req, res) {
-	start();
+	//start();
 	var searchterm = req.query.searchterm
 	var searchtrain = searchterm.toLowerCase();
 
@@ -346,7 +346,7 @@ app.get('/api/trains/search/', function(req, res) {
 	}).then(function(result) {
 
 		res.send(result);
-		stop();
+		//stop();
 
 	}).catch(function(err) {
 		console.log(err);
