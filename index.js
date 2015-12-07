@@ -286,6 +286,57 @@ app.get('/api/activities/search/name/', function(req, res) {
 
 });
 
+////////////////////////////////////////////////////////////////////////////////
+
+// put new activity 
+
+////////////////////////////////////////////////////////////////////////////////
+
+
+app.put('/api/activities/put/*', function(req, res) {
+
+
+//http://127.0.0.1:8000/api/activities/put/?type=Ors&gtype=Point&lon=-9&lat=53.00&_id=44431111glen444344546&x=53.00&y=-9&fid=555&ref=MO123&name=hello&descriptio=test&email=mail@mail.com&web=hairy.com&phone=1234567890
+
+	var array = {
+		
+		"type": req.query.type,
+		"geomerty": {
+		"type": req.query.gtype, 
+		"coordinates": [req.query.lon, req.query.lat],
+		},
+		"_id": req.query._id,
+		"properties": {
+		"_id": req.query._id,
+		"X": req.query.x,
+		"Y": req.query.y,
+		"FID": req.query.fid,
+		"Ref": req.query.ref,
+		"name": req.query.name,
+		"descriptio": req.query.descriptio,
+		"Email": req.query.email,
+		"Web": req.query.web,
+		"Phone": req.query.phone
+		}	
+		
+	};
+
+	db_4all_local.put(array)
+
+
+	.then(function(response) {
+		res.send(response);
+		console.log("sorted");
+	}).catch(function(err) {
+		res.send(err);
+		console.log(err);
+	});
+
+	syncWithCouchDB();
+
+
+})
+
 
 ////////////////////////////////////////////////////////////////////////////////
 

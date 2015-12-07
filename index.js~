@@ -121,7 +121,7 @@ app.get('/api/stops/search/', function(req, res) {
 ////////////////////////////////////////////////////////////////////////////////
 
 
-app.get('/api/stops/delete/', function(req, res) {
+app.delete('/api/stops/delete/', function(req, res) {
 		var docid = req.query.docid
 		console.log(docid);
 		db_4all_local.get(docid).then(function(doc) {
